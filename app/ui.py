@@ -11,16 +11,15 @@ from src.recommend_music import MusicRecommendationSystem
 # 🔧 Load mood image from assets/
 def load_mood_image(mood):
     mood = mood.strip().lower()
-    
-    # Resolve path from ui.py (which is inside /app/)
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-    image_path = os.path.join(base_dir, 'assets', f"{mood}.jpg")
-    default_path = os.path.join(base_dir, 'assets', "default.jpg")
+    # Full absolute path to image
+    abs_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assets', f'{mood}.jpg'))
 
-    if os.path.exists(image_path):
-        return image_path, f"{mood.title()} Vibes"
-    else:
-        return default_path, "Default Vibe"
+    if os.path.exists(abs_path):
+        return abs_path, f"{mood.title()} Vibes"
+    
+    # Fallback to default image
+    default_img = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assets', 'default.jpg'))
+    return default_img, "Default Vibe"
 
 
 # Page setup
@@ -110,12 +109,8 @@ with st.container():
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
-            # 🔍 Test hardcoded path
-            st.image("D:/AI_Music_Recommender_Reels/assets/dreamy.jpg", caption="Hardcoded Dreamy Mood Image", use_container_width=True)
-
             # Also show the dynamic one to compare
             img_path, caption = load_mood_image(detected_mood)
-            st.text(f"[DEBUG] Mood image path resolved: {img_path}")
             st.image(img_path, caption=caption, use_container_width=True)
 
     # Footer
