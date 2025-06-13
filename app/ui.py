@@ -97,8 +97,8 @@ with st.container():
 
             # Build mood image path in lowercase
             mood_image_path = f"assets/{detected_mood.lower()}.jpg"
+            st.write("Looking for image at:", mood_image_path)  # <-- For debugging
 
-            # Check if the image exists
             if os.path.exists(mood_image_path):
                 st.image(
                     mood_image_path,
