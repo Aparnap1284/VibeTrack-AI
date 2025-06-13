@@ -2,4 +2,7 @@ streamlit
 pandas
 scikit-learn
 numpy
-sentence-transformers
+sentence-transformers==2.2.2
+torch
+transformers
+
