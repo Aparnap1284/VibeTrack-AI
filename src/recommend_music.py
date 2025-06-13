@@ -1,57 +1,33 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
+import streamlit as st
 
 class MusicRecommendationSystem:
     def __init__(self, csv_path):
         self.csv_path = csv_path
-        self.df = None
-        self.embeddings = None
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        self.df = None
+        self.emb = None
 
     def initialize(self):
         try:
             self.df = pd.read_csv(self.csv_path)
-            required_cols = ['Title', 'Mood', 'Genre', 'Language']
-            missing = [col for col in required_cols if col not in self.df.columns]
-            if missing:
-                return f"Missing columns: {missing}"
-
-            self.df['full_text'] = (
-                self.df['Title'].astype(str) + " " +
-                self.df['Mood'].astype(str) + " " +
-                self.df['Genre'].astype(str) + " " +
-                self.df['Language'].astype(str)
-            )
-
-            self.embeddings = self.model.encode(self.df['full_text'].tolist(), convert_to_tensor=True)
-        except Exception as e:
-            return str(e)
-
-    def detect_mood(self, caption):
-        # Map mood keywords manually (quick and effective)
-        mood_keywords = {
-            "happy": ["celebration", "birthday", "smile", "joy", "friends"],
-            "sad": ["tears", "cry", "alone", "breakup"],
-            "romantic": ["love", "kiss", "valentine", "romance", "candlelight"],
-            "dreamy": ["stars", "sleep", "dream", "moonlight"],
-            "energetic": ["dance", "party", "gym", "hype"],
-            "angry": ["fight", "rage", "angry", "revenge"]
-        }
-
-        caption_lower = caption.lower()
-        for mood, keywords in mood_keywords.items():
-            if any(word in caption_lower for word in keywords):
-                return mood.capitalize()
-
-        return "Neutral"
+            required = ['Title','Mood','Genre','Language']
+            if any(c not in self.df.columns for c in required):
+                return "Columns missing"
+            texts = (self.df['Title'] + ' ' + self.df['Mood'] +
+                     ' ' + self.df['Genre'] + ' ' + self.df['Language'])
+            self.emb = self.model.encode(texts.tolist(), convert_to_tensor=True)
+            return None
+        except:
+            return "CSV load error"
 
     def get_unique_genres(self):
-        return sorted(self.df['Genre'].dropna().unique()) if self.df is not None else []
+        return sorted(self.df['Genre'].dropna().unique())
 
-    def recommend(self, caption, genre, top_k=5):
-        mood = self.detect_mood(caption)
-        query = f"{caption} {mood} {genre}"
-        query_embedding = self.model.encode(query, convert_to_tensor=True)
-        scores = util.cos_sim(query_embedding, self.embeddings)[0]
-        top_indices = scores.argsort(descending=True)[:top_k]
-        return self.df.iloc[top_indices.cpu().numpy()], mood
+    def recommend(self, caption, genre, top=5):
+        query = f"{caption} {genre}"
+        q_emb = self.model.encode(query, convert_to_tensor=True)
+        scores = util.cos_sim(q_emb, self.emb)[0]
+        idx = scores.argsort(descending=True)[:top].cpu().numpy()
+        return self.df.iloc[idx], self.df.iloc[idx]['Mood'].mode()[0]
