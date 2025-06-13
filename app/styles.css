@@ -1,169 +1,19 @@
-/* Global base styles */
-/* Apply a beautiful soft purple gradient to the whole page */
 body {
-    background: linear-gradient(135deg, #dec0fd, #c487fd, #c864f7);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #2d004d !important;
-    font-family: 'Segoe UI', sans-serif !important;
-    padding: 0 ;
-    margin: 0 ;
+  background: linear-gradient(135deg, #dec0fd, #c487fd, #c864f7);
+  color: #2d004d; font-family: 'Segoe UI', sans-serif;
 }
-
-/* Ensure Streamlit’s main container adopts the background */
-section.main > div {
-    background-color: transparent !important;
-}
-
-/* Optional: make all Streamlit containers slightly transparent */
-.stApp {
-    background-color: transparent !important;
-}
-
-/* Beautify text boxes, selectors, and inputs */
-textarea, select, input, .stTextArea, .stSelectbox {
-    background-color: #d45cf1dd !important;
-    border-radius: 10px;
-    padding: 8px;
-    color: #2d004d !important;
-}
-
-
-
-/* Header Styling */
 .header {
-    text-align: center;
-    padding: 2rem 1rem;
-    background: linear-gradient(to right, #f0abfc, #c084fc);
-    border-radius: 16px;
-    margin-bottom: 2rem;
-    color: #3b0764;
-    box-shadow: 0 4px 12px rgba(128, 0, 128, 0.2);
+  text-align: center; background: #f0abfc; padding: 1.5rem; border-radius: 12px;
 }
-
-.header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
-}
-
-.header p {
-    font-size: 1.25rem;
-    margin-top: 0.5rem;
-}
-/* Tidy image previews */
-img {
-    border-radius: 15px;
-    max-height: 250px !important;
-    object-fit: cover;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Music card container */
 .music-card {
-    background-color: #fdf4ff;
-    border-left: 5px solid #c084fc;
-    border-radius: 10px;
-    padding: 1rem 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 10px rgba(160, 70, 255, 0.1);
+  background: #fdf4ff; border-left: 5px solid #c084fc;
+  padding: 1rem; margin-bottom: 1rem; border-radius: 8px;
 }
-
-.music-card h4 {
-    font-size: 1.5rem;
-    color: #6b21a8;
-    margin-bottom: 0.4rem;
-}
-
-.music-card p {
-    font-size: 1rem;
-    color: #3f3f46;
-}
-
+.music-card h4 { margin: 0; color: #6b21a8; }
+.music-card p { color: #3f3f46; }
 .music-card a {
-    margin-right: 1rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #c084fc;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    transition: all 0.2s ease-in-out;
+  margin-right: 8px; padding: 6px 12px; text-decoration: none;
+  color: white; background: #c084fc; border-radius: 6px;
 }
-
-.music-card a:hover {
-    background-color: #9333ea;
-    transform: scale(1.05);
-}
-
-/* Mood Preview Section */
-.mood-preview {
-    background-color: #f3e8ff;
-    padding: 1rem;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.15);
-    border: 2px dashed #c084fc;
-    margin-top: 1rem;
-}
-
-.mood-preview img {
-    border-radius: 12px;
-    margin-top: 1rem;
-    width: 100%;
-    max-width: 300px;
-    box-shadow: 0 0 10px rgba(128, 0, 128, 0.2);
-}
-
-/* Button styling */
-button[kind="primary"] {
-    background-color: #c084fc !important;
-    color: white !important;
-    font-weight: bold;
-    border-radius: 10px !important;
-}
-
-button[kind="primary"]:hover {
-    background-color: #9333ea !important;
-}
-
-/* Responsive layout for recommendation + mood */
-.recommend-layout {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.left-pane {
-    flex: 2;
-    min-width: 350px;
-}
-
-.right-pane {
-    flex: 1;
-    min-width: 280px;
-}
-/* Limit entire Streamlit app width */
-.stApp > div {
-    max-width: 1100px;
-    margin: auto;
-    padding: 2rem 2rem;
-    box-sizing: border-box;
-}
-.recommend-layout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
-}
-
-.left-pane {
-    flex: 2;
-    min-width: 300px;
-}
-
-.right-pane {
-    flex: 1;
-    min-width: 280px;
-}
+.music-card a:hover { background: #9333ea; }
+.footer { font-size: 0.9rem; color: #5b21b6; }
