@@ -1,8 +1,7 @@
 streamlit==1.45.1
-scikit-learn
+sentence-transformers>=2.2.0
+torch>=2.7.0
+transformers>=4.40.0
 pandas
 numpy
-matplotlib
-torch==2.7.1
-sentence-transformers==2.2.2
-torchvision==0.22.1
+scikit-learn
