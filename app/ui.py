@@ -95,15 +95,19 @@ with st.container():
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood}`")
 
-            mood_img_path = f"assets/{detected_mood.lower()}.jpg"
-            if os.path.exists(mood_img_path):
+            try:
                 st.image(
-                    mood_img_path,
+                    f"assets/{detected_mood.lower()}.jpg",
                     caption=f"{detected_mood.title()} Vibes",
                     use_container_width=True
                 )
-            else:
-                st.warning("⚠️ No image available for this mood.")
+            except Exception:
+                st.image(
+                    "assets/default.jpg",
+                    caption="Default Vibe",
+                    use_container_width=True
+                )
+                st.warning("⚠️ No specific image found for this mood, showing default.")
 
     # Footer
     st.markdown("""
