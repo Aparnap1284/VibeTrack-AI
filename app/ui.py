@@ -107,9 +107,11 @@ with st.container():
 
     # Footer
     st.markdown("""
-    <div class="footer">
-        Made with ❤️ by Team VibeTrack · Powered by AI · © 2025
-    </div>
+    <hr style='margin-top:2rem; margin-bottom:1rem'>
+    <p style='text-align: center; color: grey'>
+    Made with 💜 by Aparna | VibeTrack AI © 2025
+    </p>
     """, unsafe_allow_html=True)
+
 
     st.markdown('</div>', unsafe_allow_html=True)
