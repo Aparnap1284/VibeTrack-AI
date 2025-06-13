@@ -4,5 +4,5 @@ scikit-learn
 pandas
 numpy
 matplotlib
-torch==2.2.2
+torch==2.5.1
 transformers==4.40.1
