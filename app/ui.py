@@ -69,12 +69,12 @@ with st.container():
         col_left, col_right = st.columns([2, 1])
 
         with col_left:
-            st.subheader(f"🎧 AI Recommended Tracks for mood: `{detected_mood}`")
+            st.subheader(f"🎧 AI Recommended Tracks for mood: `{detected_mood.title()}`")
 
             if not results.empty:
                 for _, row in results.iterrows():
                     title = row['Title']
-                    mood = row['Mood']
+                    mood = row['Mood'].title()
                     genre = row['Genre']
                     language = row['Language']
                     spotify_url = row.get('SpotifyLink', f"https://open.spotify.com/search/{urllib.parse.quote(title)}")
@@ -93,7 +93,7 @@ with st.container():
 
         with col_right:
             st.subheader("🌈 AI Detected Mood Preview")
-            st.markdown(f"**Detected Mood:** `{detected_mood}`")
+            st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
             try:
                 st.image(
@@ -112,10 +112,9 @@ with st.container():
     # Footer
     st.markdown("""
     <hr style='margin-top:2rem; margin-bottom:1rem'>
-    <p style='text-align: center; color: grey'>
+    <p style='text-align: center; color: pink'>
     Made with 💜 by Aparna | VibeTrack AI © 2025
     </p>
     """, unsafe_allow_html=True)
-
 
     st.markdown('</div>', unsafe_allow_html=True)
