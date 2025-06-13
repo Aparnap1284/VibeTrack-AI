@@ -100,7 +100,7 @@ with st.container():
                 st.image(
                     mood_img_path,
                     caption=f"{detected_mood.title()} Vibes",
-                    use_column_width=True
+                    use_container_width=True
                 )
             else:
                 st.warning("⚠️ No image available for this mood.")
