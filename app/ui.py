@@ -1,37 +1,33 @@
-import streamlit as st
+import streamlit as st 
 import urllib.parse
 import sys
 import os
 
-# Add src to path
+# ✅ Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.recommend_music import MusicRecommendationSystem
-
 
 # 🔧 Load mood image from assets/
 def load_mood_image(mood):
     mood = mood.strip().lower()
-    # Full absolute path to image
-    abs_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assets', f'{mood}.jpg'))
+    image_filename = f"{mood}.jpg"
+    image_path = os.path.join("assets", image_filename)
 
-    if os.path.exists(abs_path):
-        return abs_path, f"{mood.title()} Vibes"
-    
-    # Fallback to default image
-    default_img = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'assets', 'default.jpg'))
-    return default_img, "Default Vibe"
+    if os.path.exists(image_path):
+        return image_path, f"{mood.title()} Vibes"
 
+    return os.path.join("assets", "default.jpg"), "Default Vibe"
 
-# Page setup
+# ✅ Streamlit page setup
 st.set_page_config(page_title="VibeTrack AI", page_icon="🎵", layout="wide")
 
-# Load CSS
+# ✅ Load CSS if exists
 css_path = os.path.join(os.path.dirname(__file__), "styles.css")
 if os.path.exists(css_path):
     with open(css_path, "r", encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Custom styles
+# ✅ Add inline CSS
 st.markdown("""
     <style>
     .container {
@@ -52,14 +48,14 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Initialize recommender
+# ✅ Initialize recommender system
 recommender = MusicRecommendationSystem("dataset/reels_dataset.csv")
 error = recommender.initialize()
 if error:
     st.error(error)
     st.stop()
 
-# UI layout
+# ✅ Main UI
 with st.container():
     st.markdown("""
     <div class="header" style="text-align:center;">
@@ -68,7 +64,6 @@ with st.container():
     </div>
     """, unsafe_allow_html=True)
 
-    # User input
     with st.form("recommender_form"):
         caption = st.text_area("🎙️ Describe your video", "a romantic walk under stars", height=100)
         genre = st.selectbox("🎶 Preferred music genre", recommender.get_unique_genres())
@@ -79,7 +74,6 @@ with st.container():
             results, detected_mood = recommender.recommend(caption, genre)
 
         st.markdown("---")
-
         col_left, col_right = st.columns([2, 1])
 
         with col_left:
@@ -109,7 +103,6 @@ with st.container():
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
-            # Also show the dynamic one to compare
             img_path, caption = load_mood_image(detected_mood)
             st.image(img_path, caption=caption, use_container_width=True)
 
