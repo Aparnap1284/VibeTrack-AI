@@ -110,10 +110,13 @@ with st.container():
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
-            # Load image dynamically
-            img_path, img_caption = load_mood_image(detected_mood)
-            st.image(img_path, caption=img_caption, use_container_width=True)
+            # 🔍 Test hardcoded path
+            st.image("D:/AI_Music_Recommender_Reels/assets/dreamy.jpg", caption="Hardcoded Dreamy Mood Image", use_container_width=True)
+
+            # Also show the dynamic one to compare
+            img_path, caption = load_mood_image(detected_mood)
             st.text(f"[DEBUG] Mood image path resolved: {img_path}")
+            st.image(img_path, caption=caption, use_container_width=True)
 
     # Footer
     st.markdown("""
