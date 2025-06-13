@@ -6,25 +6,34 @@ import os
 # Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.recommend_music import MusicRecommendationSystem
+
+# ✅ Mood Image Loader — handles all issues with abs path + returns correct relative path
 def load_mood_image(mood):
+    import os  # Ensure this import is at the top of your file if not already there
+    
     mood = mood.strip().lower()
-    relative_path = f"assets/{mood}.jpg"
-    absolute_path = os.path.join(os.getcwd(), relative_path)
+
+    # 🪄 Construct path relative to current file (ui.py in /app/)
+    relative_path = os.path.join("..", "assets", f"{mood}.jpg")
+    absolute_path = os.path.abspath(os.path.join(os.path.dirname(__file__), relative_path))
 
     if os.path.exists(absolute_path):
-        return relative_path, f"{mood.title()} Vibes"
-    return "assets/default.jpg", "Default Vibe"
+        return absolute_path, f"{mood.title()} Vibes"
 
-# Page setup
+    # Fallback to default.jpg
+    default_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets", "default.jpg"))
+    return default_path, "Default Vibe"
+
+# 🌐 Page setup
 st.set_page_config(page_title="VibeTrack AI", page_icon="🎵", layout="wide")
 
-# Load CSS
+# 🎨 Load CSS
 css_path = os.path.join("app", "styles.css")
 if os.path.exists(css_path):
     with open(css_path, "r", encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Custom container styling
+# 🧾 Custom container styling
 st.markdown("""
     <style>
     .container {
@@ -45,16 +54,16 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Init recommender
+# 🧠 Init recommender
 recommender = MusicRecommendationSystem("dataset/reels_dataset.csv")
 error = recommender.initialize()
 if error:
     st.error(error)
     st.stop()
 
-# UI Wrapper
+# 🌟 UI Wrapper
 with st.container():
-    # Header
+    # 📢 Header
     st.markdown("""
     <div class="header" style="text-align:center;">
         <h1>🎵 VibeTrack AI</h1>
@@ -62,7 +71,7 @@ with st.container():
     </div>
     """, unsafe_allow_html=True)
 
-    # Input form
+    # ✍️ Input form
     with st.form("recommender_form"):
         caption = st.text_area("🎙️ Describe your video", "a romantic walk under stars", height=100)
         genre = st.selectbox("🎶 Preferred music genre", recommender.get_unique_genres())
@@ -74,9 +83,9 @@ with st.container():
             results, detected_mood = recommender.recommend(caption, genre)
 
         st.markdown("---")
-
         col_left, col_right = st.columns([2, 1])
 
+        # 🎶 Music Recommendations
         with col_left:
             st.subheader(f"🎧 AI Recommended Tracks for mood: `{detected_mood.title()}`")
 
@@ -100,17 +109,16 @@ with st.container():
             else:
                 st.error("No matching tracks found.")
 
+        # 🌈 Mood Image Preview
         with col_right:
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
-            # Load and display mood image safely
+            # 🖼️ Load image (absolute check + relative display)
             img_path, caption = load_mood_image(detected_mood)
-            st.write("Detected mood image path:", img_path)
-
             st.image(img_path, caption=caption, use_container_width=True)
 
-    # Footer
+    # 🧾 Footer
     st.markdown("""
     <hr style='margin-top:2rem; margin-bottom:1rem'>
     <p style='text-align: center; color: pink'>
