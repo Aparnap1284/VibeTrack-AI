@@ -6,7 +6,14 @@ import os
 # Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.recommend_music import MusicRecommendationSystem
+def load_mood_image(mood):
+    mood = mood.strip().lower()
+    image_path = f"assets/{mood}.jpg"
+    if os.path.exists(image_path):
+        return image_path, f"{mood.title()} Vibes"
+    return "assets/default.jpg", "Default Vibe"
 
+# Page setup
 st.set_page_config(page_title="VibeTrack AI", page_icon="🎵", layout="wide")
 
 # Load CSS
@@ -95,23 +102,9 @@ with st.container():
             st.subheader("🌈 AI Detected Mood Preview")
             st.markdown(f"**Detected Mood:** `{detected_mood.title()}`")
 
-            # Build mood image path in lowercase
-            mood_image_path = f"assets/{detected_mood.lower()}.jpg"
-            st.write("Looking for image at:", mood_image_path)  # <-- For debugging
-
-            if os.path.exists(mood_image_path):
-                st.image(
-                    mood_image_path,
-                    caption=f"{detected_mood.title()} Vibes",
-                    use_container_width=True
-                )
-            else:
-                st.image(
-                    "assets/default.jpg",
-                    caption="Default Vibe",
-                    use_container_width=True
-                )
-                st.warning("⚠️ No image available for this mood.")
+            # Load and display mood image safely
+            img_path, caption = load_mood_image(detected_mood)
+            st.image(img_path, caption=caption, use_container_width=True)
 
     # Footer
     st.markdown("""
