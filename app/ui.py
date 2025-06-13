@@ -8,9 +8,11 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.recommend_music import MusicRecommendationSystem
 def load_mood_image(mood):
     mood = mood.strip().lower()
-    image_path = f"assets/{mood}.jpg"
-    if os.path.exists(image_path):
-        return image_path, f"{mood.title()} Vibes"
+    relative_path = f"assets/{mood}.jpg"
+    absolute_path = os.path.join(os.getcwd(), relative_path)
+
+    if os.path.exists(absolute_path):
+        return relative_path, f"{mood.title()} Vibes"
     return "assets/default.jpg", "Default Vibe"
 
 # Page setup
@@ -104,7 +106,8 @@ with st.container():
 
             # Load and display mood image safely
             img_path, caption = load_mood_image(detected_mood)
-            st.write(f"🔍 Mood image path: {img_path}")
+            st.write("Detected mood image path:", img_path)
+
             st.image(img_path, caption=caption, use_container_width=True)
 
     # Footer
