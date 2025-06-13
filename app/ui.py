@@ -104,6 +104,7 @@ with st.container():
 
             # Load and display mood image safely
             img_path, caption = load_mood_image(detected_mood)
+            st.write(f"🔍 Mood image path: {img_path}")
             st.image(img_path, caption=caption, use_container_width=True)
 
     # Footer

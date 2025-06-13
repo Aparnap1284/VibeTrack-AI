@@ -1,7 +1,3 @@
-Absolutely Aparna! Here's an updated and more polished version of your **README section**, now reflecting your new app name **VibeTrack AI** — with better formatting, professionalism, and a footer suggestion if you want to add it later:
-
----
-
 # 🎧 **VibeTrack AI**
 
 **An AI-powered music recommender that matches your video's vibe with the perfect soundtrack.**
