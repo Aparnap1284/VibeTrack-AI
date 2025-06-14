@@ -2,6 +2,21 @@ import streamlit as st
 import urllib.parse
 import sys
 import os
+import logging
+logging.basicConfig(level=logging.DEBUG)
+print("Starting app...")
+
+try:
+    from src.recommend_music import recommend_music
+    print("Imported recommend_music successfully")
+except Exception as e:
+    print("Failed to import recommend_music:", e)
+
+try:
+    import pandas as pd
+    print("Pandas imported")
+except Exception as e:
+    print("Pandas failed:", e)
 
 # ✅ Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
