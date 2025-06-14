@@ -26,7 +26,7 @@ To run the project on your machine:
 git clone https://github.com/Aparnap1284/VibeTrack-AI.git
 cd VibeTrack-AI
 pip install -r requirements.txt
-streamlit run app/app.py
+streamlit run app/ui.py
 ```
 
 ---
@@ -55,7 +55,7 @@ streamlit run app/app.py
 
 ```bash
 ├── app/
-│   ├── app.py               # Main Streamlit app
+│   ├── ui.py               # Main Streamlit app
 │   └── styles.css           # Custom UI styles
 ├── assets/                  # Mood images
 ├── dataset/                 # CSV data with songs
