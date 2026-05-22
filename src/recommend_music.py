@@ -18,28 +18,108 @@ class MusicRecommendationSystem:
         self.emb = None
 
     # ---------------------------------------------------
-    # INITIALIZE DATASET + EMBEDDINGS
+    # DETECT MOOD FROM CAPTION
+    # ---------------------------------------------------
+    def detect_caption_mood(self, caption):
+
+        caption = caption.lower()
+
+        mood_keywords = {
+
+            "Energetic": [
+                "party",
+                "dance",
+                "dj",
+                "club",
+                "celebration",
+                "festival",
+                "fun",
+                "friends",
+                "farewell",
+                "wedding",
+                "beats",
+                "crazy"
+            ],
+
+            "Romantic": [
+                "love",
+                "romantic",
+                "couple",
+                "date",
+                "kiss",
+                "heart",
+                "stars",
+                "together"
+            ],
+
+            "Sad": [
+                "alone",
+                "broken",
+                "cry",
+                "pain",
+                "heartbreak",
+                "lost",
+                "miss"
+            ],
+
+            "Peaceful": [
+                "beach",
+                "sunset",
+                "nature",
+                "mountains",
+                "calm",
+                "relax",
+                "ocean",
+                "seashore"
+            ],
+
+            "Motivational": [
+                "gym",
+                "workout",
+                "success",
+                "motivation",
+                "winner",
+                "hustle",
+                "beast",
+                "hero"
+            ],
+
+            "Melancholic": [
+                "rain",
+                "night",
+                "lonely",
+                "dark",
+                "memories",
+                "silent"
+            ]
+        }
+
+        for mood, keywords in mood_keywords.items():
+
+            for word in keywords:
+
+                if word in caption:
+                    return mood
+
+        return "Romantic"
+
+    # ---------------------------------------------------
+    # INITIALIZE
     # ---------------------------------------------------
     def initialize(self):
 
         try:
 
-            # Auto detect CSV separator
             self.df = pd.read_csv(
                 self.csv_path,
                 sep=None,
                 engine='python'
             )
 
-            # Clean column names
             self.df.columns = (
                 self.df.columns.str.strip()
             )
 
-            print("\nDetected Columns:\n")
-            print(self.df.columns.tolist())
-
-            # Required columns
             required = [
                 'Title',
                 'Composer',
@@ -49,21 +129,21 @@ class MusicRecommendationSystem:
                 'Language'
             ]
 
-            # Check missing columns
             missing = [
+
                 col for col in required
                 if col not in self.df.columns
+
             ]
 
             if missing:
                 return f"Columns missing: {missing}"
 
-            # Fill empty values
             self.df = self.df.fillna('')
 
-            # ---------------------------------------------------
-            # SMART SEMANTIC EMBEDDINGS
-            # ---------------------------------------------------
+            # -----------------------------------------
+            # SMART SEMANTIC TEXTS
+            # -----------------------------------------
             texts = (
 
                 "Song: " +
@@ -86,7 +166,6 @@ class MusicRecommendationSystem:
 
             )
 
-            # Generate embeddings
             self.emb = self.model.encode(
                 texts.tolist(),
                 convert_to_tensor=True
@@ -99,108 +178,90 @@ class MusicRecommendationSystem:
             return f"CSV load error: {str(e)}"
 
     # ---------------------------------------------------
-    # GET UNIQUE GENRES
+    # GET GENRES
     # ---------------------------------------------------
     def get_unique_genres(self):
 
-        try:
+        return sorted(
 
-            genres = sorted(
+            self.df['Genre']
+            .dropna()
+            .astype(str)
+            .unique()
+            .tolist()
 
-                self.df['Genre']
-                .dropna()
-                .astype(str)
-                .unique()
-                .tolist()
-
-            )
-
-            return genres
-
-        except Exception:
-
-            return []
+        )
 
     # ---------------------------------------------------
-    # GET UNIQUE LANGUAGES
+    # GET LANGUAGES
     # ---------------------------------------------------
     def get_unique_languages(self):
 
-        try:
+        return sorted(
 
-            languages = sorted(
+            self.df['Language']
+            .dropna()
+            .astype(str)
+            .unique()
+            .tolist()
 
-                self.df['Language']
-                .dropna()
-                .astype(str)
-                .unique()
-                .tolist()
-
-            )
-
-            return languages
-
-        except Exception:
-
-            return []
+        )
 
     # ---------------------------------------------------
-    # MAIN RECOMMENDATION FUNCTION
+    # RECOMMEND
     # ---------------------------------------------------
     def recommend(
         self,
         caption,
         genre,
-        language="Any",
+        language=None,
         top=5
     ):
 
         try:
 
-            # ---------------------------------------------------
-            # BETTER QUERY ENGINEERING
-            # ---------------------------------------------------
-            query = f"""
-            A music recommendation for:
-            {caption}
+            # -----------------------------------------
+            # DETECT MOOD
+            # -----------------------------------------
+            detected_mood = self.detect_caption_mood(
+                caption
+            )
 
-            The music should match the emotional vibe,
-            atmosphere, energy, and feeling of the scene.
+            # -----------------------------------------
+            # BETTER QUERY
+            # -----------------------------------------
+            query = f"""
+            Video vibe: {caption}
 
             Preferred genre: {genre}
+
             Preferred language: {language}
 
-            Mood relevance is more important than exact genre.
+            Mood: {detected_mood}
+
+            Recommend emotionally matching songs.
             """
 
-            # Encode query
             q_emb = self.model.encode(
                 query,
                 convert_to_tensor=True
             )
 
-            # Similarity scores
             scores = util.cos_sim(
                 q_emb,
                 self.emb
             )[0]
 
-            # ---------------------------------------------------
-            # CREATE SAFE COPY
-            # ---------------------------------------------------
-            filtered_df = self.df.copy()
-
-            # Add scores
-            filtered_df['score'] = (
+            self.df['score'] = (
                 scores.cpu().numpy()
             )
 
-            # ---------------------------------------------------
-            # STRICT GENRE FILTERING
-            # ---------------------------------------------------
-            genre_filtered = filtered_df[
+            # -----------------------------------------
+            # STRICT FILTERING
+            # -----------------------------------------
+            filtered_df = self.df[
 
-                filtered_df['Genre']
+                self.df['Genre']
                 .str.contains(
                     genre,
                     case=False,
@@ -209,17 +270,9 @@ class MusicRecommendationSystem:
 
             ].copy()
 
-            # Use genre filter if enough results exist
-            if len(genre_filtered) >= 5:
-
-                filtered_df = genre_filtered
-
-            # ---------------------------------------------------
-            # LANGUAGE FILTER
-            # ---------------------------------------------------
             if language != "Any":
 
-                language_filtered = filtered_df[
+                filtered_df = filtered_df[
 
                     filtered_df['Language']
                     .str.contains(
@@ -228,64 +281,59 @@ class MusicRecommendationSystem:
                         na=False
                     )
 
-                ].copy()
+                ]
 
-                # Keep language filter only if enough songs
-                if len(language_filtered) >= 3:
+            # -----------------------------------------
+            # MOOD BOOSTING
+            # -----------------------------------------
+            filtered_df['mood_bonus'] = filtered_df[
+                'Mood'
+            ].apply(
 
-                    filtered_df = language_filtered
+                lambda x: 0.15
+                if str(x).lower() ==
+                detected_mood.lower()
+                else 0
 
-            # ---------------------------------------------------
-            # FINAL SORTING
-            # ---------------------------------------------------
+            )
+
+            filtered_df['final_score'] = (
+
+                filtered_df['score'] +
+                filtered_df['mood_bonus']
+
+            )
+
+            # -----------------------------------------
+            # SORT
+            # -----------------------------------------
             filtered_df = filtered_df.sort_values(
-                by='score',
+                by='final_score',
                 ascending=False
             )
 
-            # ---------------------------------------------------
-            # DETECTED MOOD
-            # ---------------------------------------------------
-            detected_mood = (
-                filtered_df.iloc[0]['Mood']
-            )
-
-            # ---------------------------------------------------
+            # -----------------------------------------
             # TOP CANDIDATES
-            # ---------------------------------------------------
-            top_candidates = (
-                filtered_df.head(12)
-            )
+            # -----------------------------------------
+            top_candidates = filtered_df.head(15)
 
-            # ---------------------------------------------------
-            # SLIGHT DIVERSITY
-            # ---------------------------------------------------
+            # -----------------------------------------
+            # DIVERSITY
+            # -----------------------------------------
             recommendations = top_candidates.sample(
 
                 n=min(top, len(top_candidates)),
 
                 random_state=random.randint(
                     1,
-                    10000
+                    99999
                 )
 
             )
 
-            # Remove duplicates
-            recommendations = (
-                recommendations
-                .drop_duplicates(
-                    subset=['Title']
-                )
-            )
-
-            # Final sorting
-            recommendations = (
-                recommendations
-                .sort_values(
-                    by='score',
-                    ascending=False
-                )
+            recommendations = recommendations.sort_values(
+                by='final_score',
+                ascending=False
             )
 
             return (

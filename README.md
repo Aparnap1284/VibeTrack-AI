@@ -1,75 +1,271 @@
-# 🎧 **VibeTrack AI**
+# 🎵 VibeTrack AI
 
-**An AI-powered music recommender that matches your video's vibe with the perfect soundtrack.**
-
-<p align="center">
-  <img src="assets/energetic.jpg" width="300" alt="VibeTrack AI Mood Preview">
-</p>
+An AI-powered music recommendation system that suggests songs based on the vibe, emotion, and context of a user's video caption using NLP and semantic embeddings.
 
 ---
 
-## 🔮 **Key Features**
+## 🚀 Features
 
-* 🎙️ **Mood Detection** from your video description using NLP
-* 🎶 **Music Recommendations** based on mood and selected genre
-* 🎧 **Streaming Support** with direct links to Spotify & YouTube
-* 💜 **Elegant UI** with a calming purple-themed design
-* 🌐 Built using **Streamlit**, ideal for fast web app deployment
+* 🎙️ Caption-based music recommendations
+* 🧠 NLP-powered semantic similarity using Sentence Transformers
+* 🎭 Automatic mood detection from captions
+* 🎼 Genre-based filtering
+* 🌍 Language-based filtering
+* 🎧 Instant Spotify & YouTube search links
+* 🌈 Mood preview images
+* 💜 Beautiful Streamlit UI with responsive design
+* 🔀 Recommendation diversity logic
 
 ---
 
-## ⚙️ **Run Locally**
+## 🧠 How It Works
 
-To run the project on your machine:
+VibeTrack AI uses:
+
+* **Sentence Transformers (`all-MiniLM-L6-v2`)**
+* **Semantic Embeddings**
+* **Cosine Similarity**
+* **Mood Detection Logic**
+* **Metadata Filtering**
+
+The system converts both:
+
+* user captions
+* song metadata
+
+into semantic vector embeddings and recommends emotionally relevant tracks.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology            | Purpose                 |
+| --------------------- | ----------------------- |
+| Python                | Core development        |
+| Streamlit             | Frontend UI             |
+| Sentence Transformers | Semantic NLP embeddings |
+| Scikit-learn          | Similarity utilities    |
+| Pandas                | Dataset handling        |
+| PyTorch               | Transformer backend     |
+
+---
+
+## 📂 Project Structure
+
+```text
+VibeTrack-AI/
+│
+├── app/
+│   ├── ui.py
+│   └── styles.css
+│
+├── src/
+│   └── recommend_music.py
+│
+├── dataset/
+│   └── reels_dataset.csv
+│
+├── assets/
+│   ├── romantic.jpg
+│   ├── energetic.jpg
+│   ├── peaceful.jpg
+│   └── ...
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/Aparnap1284/VibeTrack-AI.git
 cd VibeTrack-AI
+```
+
+---
+
+## 2️⃣ Create Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+OR manually:
+
+```bash
+pip install streamlit pandas sentence-transformers scikit-learn torch
+```
+
+---
+
+## 4️⃣ Run the App
+
+```bash
 streamlit run app/ui.py
 ```
 
 ---
 
-## 🛠️ **Tech Stack**
+# 🎯 Example Inputs
 
-* **Frontend/UI**: Streamlit + CSS styling
-* **Backend Logic**: Python
-* **NLP Model**: Sentiment/mood classification (based on captions)
-* **Deployment Ready**: Can be hosted on Streamlit Cloud, Render, etc.
-
----
-
-## 🖼️ **Sample Output**
-
-> AI Mood: `Energetic`
-> Recommended Songs:
-> ✔️ Buzz
-> ✔️ Party All Night
-> ✔️ Bom Diggy Diggy
-> ...and more!
+| Caption                   | Expected Mood |
+| ------------------------- | ------------- |
+| party songs               | Energetic     |
+| beach sunset vibes        | Peaceful      |
+| broken heart alone        | Sad           |
+| gym beast mode            | Motivational  |
+| romantic walk under stars | Romantic      |
 
 ---
 
-## 📌 **Project Structure**
+# 🧠 Recommendation Pipeline
 
-```bash
-├── app/
-│   ├── ui.py               # Main Streamlit app
-│   └── styles.css           # Custom UI styles
-├── assets/                  # Mood images
-├── dataset/                 # CSV data with songs
-├── src/
-│   └── recommend_music.py   # Recommendation logic
-├── requirements.txt
-└── README.md
+```text
+User Caption
+      ↓
+Mood Detection
+      ↓
+Semantic Embedding Generation
+      ↓
+Cosine Similarity Matching
+      ↓
+Genre + Language Filtering
+      ↓
+Mood Score Boosting
+      ↓
+Top Song Recommendations
 ```
 
 ---
 
-## 📩 **Feedback / Contribution**
+# ✨ Key AI Features
 
-Want to improve the model or UI? Feel free to fork, clone, and contribute through pull requests.
+## 🔹 Semantic Search
+
+Instead of keyword matching, the system understands contextual meaning.
+
+Example:
+
+```text
+"night drive in rain"
+```
+
+matches emotionally similar songs even without exact words.
 
 ---
 
+## 🔹 Mood Detection Engine
+
+Captions are analyzed for emotional intent:
+
+* Romantic
+* Energetic
+* Peaceful
+* Motivational
+* Sad
+* Melancholic
+
+---
+
+## 🔹 Smart Prompt-Style Embeddings
+
+Song metadata is converted into structured semantic prompts:
+
+```text
+Song: Perfect.
+Singer: Ed Sheeran.
+Mood: Romantic.
+Genre: Ballad.
+Language: English.
+```
+
+This improves embedding quality significantly.
+
+---
+
+## 🎵 Main Interface
+
+* Caption input
+* Genre selector
+* Language selector
+* AI recommendations
+* Mood preview panel
+
+---
+
+# 🔮 Future Improvements
+
+* Spotify API integration
+* YouTube API integration
+* Real audio feature analysis
+* Collaborative filtering
+* Playlist generation
+* Emotion detection from images/videos
+* Transformer fine-tuning
+* User preference learning
+
+---
+
+# 👩‍💻 Author
+
+## Aparna Patel
+
+Pre-final Year CSE Student @ UEC
+Backend Developer & AI Enthusiast
+
+* Java
+* Python
+* NLP
+* APIs
+* Machine Learning
+
+---
+
+# 🔗 GitHub Repository
+
+[VibeTrack AI GitHub Repository](https://github.com/Aparnap1284/VibeTrack-AI?utm_source=chatgpt.com)
+
+---
+
+# 💜 Acknowledgements
+
+* Sentence Transformers
+* Hugging Face
+* Streamlit
+* Scikit-learn
+* PyTorch
+* Edunet Foundation
+* AICTE
+* Microsoft AI Internship Initiative
+
+---
+
+# ⭐ If You Like This Project
+
+Star the repository and connect on LinkedIn 🚀
