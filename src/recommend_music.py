@@ -24,7 +24,7 @@ class MusicRecommendationSystem:
 
         try:
 
-            # Auto-detect CSV separator
+            # Auto detect CSV separator
             self.df = pd.read_csv(
                 self.csv_path,
                 sep=None,
@@ -35,6 +35,9 @@ class MusicRecommendationSystem:
             self.df.columns = (
                 self.df.columns.str.strip()
             )
+
+            print("\nDetected Columns:\n")
+            print(self.df.columns.tolist())
 
             # Required columns
             required = [
@@ -55,11 +58,11 @@ class MusicRecommendationSystem:
             if missing:
                 return f"Columns missing: {missing}"
 
-            # Fill NaN values
+            # Fill empty values
             self.df = self.df.fillna('')
 
             # ---------------------------------------------------
-            # BETTER SEMANTIC EMBEDDINGS
+            # SMART SEMANTIC EMBEDDINGS
             # ---------------------------------------------------
             texts = (
 
@@ -148,7 +151,7 @@ class MusicRecommendationSystem:
         self,
         caption,
         genre,
-        language=None,
+        language="Any",
         top=5
     ):
 
@@ -182,17 +185,22 @@ class MusicRecommendationSystem:
                 self.emb
             )[0]
 
-            # Add scores to dataframe
-            self.df['score'] = (
+            # ---------------------------------------------------
+            # CREATE SAFE COPY
+            # ---------------------------------------------------
+            filtered_df = self.df.copy()
+
+            # Add scores
+            filtered_df['score'] = (
                 scores.cpu().numpy()
             )
 
             # ---------------------------------------------------
             # STRICT GENRE FILTERING
             # ---------------------------------------------------
-            filtered_df = self.df[
+            genre_filtered = filtered_df[
 
-                self.df['Genre']
+                filtered_df['Genre']
                 .str.contains(
                     genre,
                     case=False,
@@ -201,17 +209,17 @@ class MusicRecommendationSystem:
 
             ].copy()
 
-            # Fallback if too few songs
-            if len(filtered_df) < 5:
+            # Use genre filter if enough results exist
+            if len(genre_filtered) >= 5:
 
-                filtered_df = self.df.copy()
+                filtered_df = genre_filtered
 
             # ---------------------------------------------------
             # LANGUAGE FILTER
             # ---------------------------------------------------
-            if language and language != "Any":
+            if language != "Any":
 
-                filtered_df = filtered_df[
+                language_filtered = filtered_df[
 
                     filtered_df['Language']
                     .str.contains(
@@ -220,32 +228,26 @@ class MusicRecommendationSystem:
                         na=False
                     )
 
-                ]
+                ].copy()
+
+                # Keep language filter only if enough songs
+                if len(language_filtered) >= 3:
+
+                    filtered_df = language_filtered
 
             # ---------------------------------------------------
-            # FINAL SCORE
-            # ---------------------------------------------------
-            filtered_df['final_score'] = (
-                filtered_df['score']
-            )
-
-            # ---------------------------------------------------
-            # SORT RESULTS
+            # FINAL SORTING
             # ---------------------------------------------------
             filtered_df = filtered_df.sort_values(
-                by='final_score',
+                by='score',
                 ascending=False
             )
 
             # ---------------------------------------------------
-            # MOOD DETECTION
+            # DETECTED MOOD
             # ---------------------------------------------------
-            top_moods = (
-                filtered_df.head(5)['Mood']
-            )
-
             detected_mood = (
-                top_moods.mode()[0]
+                filtered_df.iloc[0]['Mood']
             )
 
             # ---------------------------------------------------
@@ -277,11 +279,11 @@ class MusicRecommendationSystem:
                 )
             )
 
-            # Final sort
+            # Final sorting
             recommendations = (
                 recommendations
                 .sort_values(
-                    by='final_score',
+                    by='score',
                     ascending=False
                 )
             )
