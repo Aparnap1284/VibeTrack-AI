@@ -1,236 +1,1090 @@
-ID,Title,Composer,Singer,Language,Mood,Genre
-1,Apna Bana Le,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-2,Kesariya,Pritam,Arijit Singh,Hindi,Romantic,Pop
-3,Naatu Naatu,M.M. Keeravani,Rahul Sipligunj,Hindi,Energetic,Action
-4,Manike Mage Hithe,Yohani,Yohani,Hindi,Happy,Pop
-5,Shayad,Pritam,Arijit Singh,Hindi,Sad,Ballad
-6,Shape of You,Ed Sheeran,Ed Sheeran,English,Romantic,Pop
-7,Blinding Lights,The Weeknd,The Weeknd,English,Energetic,Pop
-8,Dance Monkey,Tones and I,Tones and I,English,Energetic,Pop
-9,Stay,The Kid Laroi,Justin Bieber,English,Romantic,Pop
-10,Levitating,Dua Lipa,Dua Lipa,English,Energetic,Pop
-11,Peaches,Justin Bieber,Justin Bieber,English,Romantic,Pop
-12,Save Your Tears,The Weeknd,The Weeknd,English,Sad,Pop
-13,Watermelon Sugar,Harry Styles,Harry Styles,English,Happy,Pop
-14,Drivers License,Olivia Rodrigo,Olivia Rodrigo,English,Sad,Ballad
-15,Good 4 U,Olivia Rodrigo,Olivia Rodrigo,English,Angry,Rock
-16,Montero,Lil Nas X,Lil Nas X,English,Energetic,Hip-Hop
-17,Stay With Me,Sam Smith,Sam Smith,English,Sad,Pop
-18,As It Was,Harry Styles,Harry Styles,English,Happy,Pop
-19,Industry Baby,Lil Nas X,Lil Nas X,English,Energetic,Hip-Hop
-20,Heat Waves,Glass Animals,Glass Animals,English,Sad,Indie
-21,Better Days,Dermot Kennedy,Dermot Kennedy,English,Hopeful,Pop
-22,Despacito,Luis Fonsi,Luis Fonsi,English,Romantic,Pop
-23,Uptown Funk,Mark Ronson,Bruno Mars,English,Energetic,Funk
-24,Thinking Out Loud,Ed Sheeran,Ed Sheeran,English,Romantic,Ballad
-25,Perfect,Ed Sheeran,Ed Sheeran,English,Romantic,Ballad
-26,Believer,Imagine Dragons,Imagine Dragons,English,Energetic,Rock
-27,Happier,Marshmello,Bastille,English,Sad,EDM
-28,Senorita,Shawn Mendes,Shawn Mendes,English,Romantic,Pop
-29,Counting Stars,OneRepublic,OneRepublic,English,Energetic,Pop
-30,Photograph,Ed Sheeran,Ed Sheeran,English,Romantic,Ballad
-31,See You Again,Wiz Khalifa,Charlie Puth,English,Sad,Hip-Hop
-32,Love Yourself,Justin Bieber,Justin Bieber,English,Sad,Pop
-33,Starboy,The Weeknd,The Weeknd,English,Energetic,Pop
-34,Sorry,Justin Bieber,Justin Bieber,English,Sad,Pop
-35,7 Rings,Ariana Grande,Ariana Grande,English,Confident,Pop
-36,Thank U Next,Ariana Grande,Ariana Grande,English,Empowering,Pop
-37,Old Town Road,Lil Nas X,Lil Nas X,English,Energetic,Country
-38,Sweet Child O Mine,Guns N Roses,Guns N Roses,English,Romantic,Rock
-39,Bohemian Rhapsody,Queen,Queen,English,Dramatic,Rock
-40,Hotel California,Eagles,Eagles,English,Mysterious,Rock
-41,Smells Like Teen Spirit,Nirvana,Nirvana,English,Aggressive,Grunge
-42,Imagine,John Lennon,John Lennon,English,Peaceful,Pop
-43,Like A Rolling Stone,Bob Dylan,Bob Dylan,English,Thoughtful,Rock
-44,Hey Jude,The Beatles,The Beatles,English,Comforting,Pop
-45,Whats Up?,4 Non Blondes,4 Non Blondes,English,Happy,Rock
-46,Zombie,The Cranberries,The Cranberries,English,Angry,Rock
-47,Wonderwall,Oasis,Oasis,English,Melancholic,Rock
-48,Angels,Robbie Williams,Robbie Williams,English,Comforting,Pop
-49,Chaiyya Chaiyya,A.R. Rahman,Sukhwinder Singh,Hindi,Energetic,Bollywood
-50,Tum Se Hi,Pritam,Mohit Chauhan,Hindi,Romantic,Ballad
-51,Ae Dil Hai Mushkil,Pritam,Arijit Singh,Hindi,Sad,Ballad
-52,Gerua,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-53,Ilahi,Pritam,Arijit Singh,Hindi,Peaceful,Ballad
-54,Phir Bhi Tumko Chaahunga,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-55,Tera Ban Jaunga,Kabir Singh,Mithoon,Hindi,Romantic,Ballad
-56,Pal,Javed Ali,Javed Ali,Hindi,Romantic,Ballad
-57,Tere Vaaste,Arijit Singh,Arijit Singh,Hindi,Romantic,Pop
-58,Kaise Hua,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-59,Channa Mereya,Pritam,Arijit Singh,Hindi,Sad,Ballad
-60,Janam Janam,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-61,Pehla Nasha,Jatin-Lalit,Udit Narayan,Hindi,Romantic,Ballad
-62,Tere Liye,A.R. Rahman,Lata Mangeshkar,Hindi,Romantic,Ballad
-63,Kal Ho Naa Ho,Shankar-Ehsaan-Loy,Sonu Nigam,Hindi,Sad,Ballad
-64,Tum Hi Ho,Ankit Tiwari,Arijit Singh,Hindi,Romantic,Ballad
-65,Jeena Jeena,Atif Aslam,Atif Aslam,Hindi,Romantic,Ballad
-66,Soch Na Sake,Amaal Mallik,Arijit Singh,Hindi,Romantic,Ballad
-67,Bolna,Arijit Singh,Arijit Singh,Hindi,Romantic,Ballad
-68,Nashe Si Chadh Gayi,Vishal-Shekhar,Arijit Singh,Hindi,Energetic,Dance
-69,Kar Gayi Chull,Badshah,Arijit Singh,Hindi,Energetic,Dance
-70,Badtameez Dil,Pritam,Arijit Singh,Hindi,Energetic,Dance
-71,The Humma Song,A.R. Rahman,Badshah,Hindi,Energetic,Dance
-72,Galti Se Mistake,Amit Trivedi,Arijit Singh,Hindi,Happy,Pop
-73,London Thumakda,Vishal-Shekhar,Neha Kakkar,Hindi,Energetic,Dance
-74,Swag Se Swagat,Vishal-Shekhar,Neha Kakkar,Hindi,Energetic,Dance
-75,Dilbar,Sajid-Wajid,Neha Kakkar,Hindi,Energetic,Dance
-76,Rait Zara Si,A.R. Rahman,Arijit Singh,Hindi,Romantic,Ballad
-77,Rangisari,JugJugg Jeeyo,Kanishk Seth,Hindi,Romantic,Ballad
-78,Pasoori Nu,Satyameva Jayate 2,Arijit Singh,Hindi,Romantic,Pop
-79,Param Sundari,A.R. Rahman,Shreya Ghoshal,Hindi,Romantic,Ballad
-80,Kabhii Tumhhe,Darlings,Javed Ali,Hindi,Romantic,Ballad
-81,Naatu Naatu (Telugu),M.M. Keeravani,Rahul Sipligunj,Telugu,Energetic,Action
-82,Raataan Lambiyan,Tanishk Bagchi,Jubin Nautiyal,Hindi,Romantic,Ballad
-83,Tum Hi Aana,Jubin Nautiyal,Jubin Nautiyal,Hindi,Romantic,Ballad
-84,Ve Kamleya,Arijit Singh,Arijit Singh,Hindi,Romantic,Ballad
-85,Malang Sajna,Sachet Tandon,Sachet Tandon,Hindi,Romantic,Pop
-86,Ghungroo,Vishal-Shekhar,Arijit Singh,Hindi,Energetic,Dance
-87,Tum Prem Ho,Arko,Arijit Singh,Hindi,Romantic,Ballad
-88,Mehrama,Pritam,Darshan Raval,Hindi,Romantic,Pop
-89,Dil Ko Karaar Aaya,Neha Kakkar,Neha Kakkar,Hindi,Romantic,Pop
-90,Shayad (Love Aaj Kal),Pritam,Arijit Singh,Hindi,Romantic,Pop
-91,Garmi,Badshah,Neha Kakkar,Hindi,Energetic,Dance
-92,Dil Chori,Yo Yo Honey Singh,Yo Yo Honey Singh,Hindi,Energetic,Dance
-93,Slow Slow,Himesh Reshammiya,Yo Yo Honey Singh,Hindi,Romantic,Pop
-94,Dilbar (Satyameva Jayate),Tanishk Bagchi,Neha Kakkar,Hindi,Energetic,Dance
-95,Coca Cola,Luv Ranjan,Arijit Singh,Hindi,Romantic,Pop
-96,Tere Bin,Nusrat Fateh Ali Khan,Rahat Fateh Ali Khan,Hindi,Romantic,Sufi
-97,Tere Jaisa Yaar Kahan,Udit Narayan,Udit Narayan,Hindi,Romantic,Ballad
-98,Tere Bina,Zubeen Garg,Zubeen Garg,Hindi,Romantic,Ballad
-99,Tere Naam,M.M. Kreem,Udit Narayan,Hindi,Romantic,Ballad
-100,Tu Hi Re,A.R. Rahman,Hariharan,Hindi,Romantic,Ballad
-101,Channa Ve,Asees Kaur,Asees Kaur,Hindi,Romantic,Folk-Pop
-102,Raabta,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-103,Duniyaa,Luv Ranjan,Arijit Singh,Hindi,Happy,Pop
-104,Tujhe Kitna Chahne Lage,Mithoon,Arijit Singh,Hindi,Romantic,Ballad
-105,Bekhayali,Sachet-Parampara,Sachet Tandon,Hindi,Sad,Ballad
-106,Dil Diyan Gallan,Vishal-Shekhar,Atif Aslam,Hindi,Romantic,Ballad
-107,Tera Yaar Hoon Main,Rochak Kohli,Arijit Singh,Hindi,Friendship,Pop
-108,Saibo,Sachin-Jigar,Shreya Ghoshal,Hindi,Romantic,Indie-Pop
-109,Khaabon Ke Parindey,A.R. Rahman,Alyssa Mendonsa,Hindi,Dreamy,Soundtrack
-110,Bulleya,Pritam,Amit Mishra,Hindi,Mysterious,Sufi-Rock
-111,Afsan,Tanisk Bagchi,Jubin Nautiyal,Hindi,Sad,Ballad
-112,Kaun Tujhe,Palak Muchhal,Palak Muchhal,Hindi,Romantic,Pop
-113,Tere Sang Yaara,Atif Aslam,Atif Aslam,Hindi,Romantic,Ballad
-114,Agar Tum Saath Ho,A.R. Rahman,Alka Yagnik,Hindi,Emotional,Ballad
-115,Patakha Guddi,A.R. Rahman,Nooran Sisters,Hindi,Energetic,Folk
-116,Dangal,Pritam,Daler Mehndi,Hindi,Motivational,Folk-Pop
-117,Nachdi Phira,Amit Trivedi,Meghna Mishra,Hindi,Energetic,Dance
-118,Bom Diggy Diggy,Zack Knight,Zack Knight,Hindi,Energetic,Dance-Pop
-119,O Saki Saki,Tanishk Bagchi,Neha Kakkar,Hindi,Energetic,Dance
-120,Lae Dooba,Amit Trivedi,Sunidhi Chauhan,Hindi,Romantic,Pop
-121,Koka,Badshah,Badshah,Hindi,Energetic,Hip-Hop
-122,DJ Waley Babu,Badshah,Badshah,Hindi,Energetic,Dance
-123,Genda Phool,Badshah,Badshah,Hindi,Happy,Pop
-124,Morni Banke,Guru Randhawa,Guru Randhawa,Punjabi,Romantic,Pop
-125,Lahore,Guru Randhawa,Guru Randhawa,Punjabi,Energetic,Bhangra
-126,Tu Hi Hai,Amaal Mallik,Arijit Singh,Hindi,Romantic,Ballad
-127,Sooraj Dooba Hain,Amaal Mallik,Arijit Singh,Hindi,Happy,Pop
-128,Chaandaniya,Amaal Mallik,Arijit Singh,Hindi,Romantic,Pop
-129,Dil Cheez Tujhe Dedi,Amaal Mallik,Arijit Singh,Hini,Romantic,Pop
-130,Humsafar,Badshah,Arijit Singh,Hindi,Romantic,Pop
-131,Buzz,Aastha Gill,Badshah,Hindi,Energetic,Dance
-132,Proper Patola,Diljit Dosanjh,Diljit Dosanjh,Punjabi,Energetic,Bhangra
-133,Do You Know,Diljit Dosanjh,Diljit Dosanjh,Punjabi,Romantic,Pop
-134,Laembadgini,Diljit Dosanjh,Diljit Dosanjh,Punjabi,Energetic,Bhangra
-135,Viah,Diljit Dosanjh,Diljit Dosanjh,Punjabi,Romantic,Folk
-136,Prada,Jass Manak,Jass Manak,Punjabi,Confident,Pop
-137,Lehenga,Jass Manak,Jass Manak,Punjabi,Romantic,Pop
-138,Yaar Beli,Karan Aujla,Karan Aujla,Punjabi,Romantic,Pop
-139,Don’t Look Back,Karan Aujla,Karan Aujla,Punjabi,Motivational,Pop
-140,B-Town,Karan Aujla,Karan Aujla,Punjabi,Energetic,Hip-Hop
-141,Legends,Sidhu Moosewala,Sidhu Moosewala,Punjabi,Motivational,Hip-Hop
-142,295,Sidhu Moosewala,Sidhu Moosewala,Punjabi,Aggressive,Hip-Hop
-143,So High,Sidhu Moosewala,Sidhu Moosewala,Punjabi,Confident,Hip-Hop
-144,Dangerous,Sidhu Moosewala,Sidhu Moosewala,Punjabi,Energetic,Hip-Hop
-145,Same Beef,Sidhu Moosewala,Sidhu Moosewala,Punjabi,Aggressive,Hip-Hop
-146,Hathyar,Deep Jandu,Deep Jandu,Punjabi,Aggressive,Hip-Hop
-147,Illegal Weapon,Jasmine Sandlas,Jasmine Sandlas,Punjabi,Energetic,Dance
-148,Surma Surma,Ammy Virk,Ammy Virk,Punjabi,Romantic,Folk
-149,Gal Ban Gayi,Ammy Virk,Ammy Virk,Punjabi,Romantic,Pop
-150,Naah,Harrdy Sandhu,Harrdy Sandhu,Punjabi,Romantic,Pop
-151,Kya Baat Ay,Harrdy Sandhu,Harrdy Sandhu,Punjabi,Happy,Pop
-152,Bijlee Bijlee,Harrdy Sandhu,Harrdy Sandhu,Punjabi,Energetic,Bhangra
-153,Jannat,B Praak,B Praak,Punjabi,Romantic,Ballad
-154,Filhall,B Praak,B Praak,Punjabi,Romantic,Pop
-155,Mitti Di Khushboo,Ayushmann Khurrana,Ayushmann Khurrana,Hindi,Emotional,Folk
-156,Nazm Nazm,Ayushmann Khurrana,Ayushmann Khurrana,Hindi,Romantic,Indie
-157,O Heeriye,Ayushmann Khurrana,Ayushmann Khurrana,Hindi,Romantic,Pop
-158,Maana Ke Hum Yaar Nahin,Parineeti Chopra,Parineeti Chopra,Hindi,Sad,Ballad
-159,Teri Mitti,B Praak,B Praak,Hindi,Patriotic,Ballad
-160,Dil Bechara,A.R. Rahman,A.R. Rahman,Hindi,Sad,Soundtrack
-161,Naina,Arijit Singh,Arijit Singh,Hindi,Sad,Ballad
-162,Phir Le Aya Dil,Pritam,Arijit Singh,Hindi,Romantic,Ballad
-163,Aaj Se Teri,Papon,Papon,Hindi,Romantic,Folk
-164,Kyon,Papon,Papon,Hindi,Melancholic,Indie
-165,Moh Moh Ke Dhaage,Papon,Papon,Hindi,Emotional,Folk
-166,Dil Chahta Hai,Shankar-Ehsaan-Loy,Shaan,Hindi,Happy,Pop
-167,Koi Kahe Kehta Rahe,Shankar-Ehsaan-Loy,Shaan,Hindi,Happy,Pop
-168,Tanha Dil,Shankar-Ehsaan-Loy,Shaan,Hindi,Sad,Pop
-169,Woh Lamhe,Pritam,Atif Aslam,Hindi,Sad,Ballad
-170,Tera Hone Laga Hoon,Pritam,Atif Aslam,Hindi,Romantic,Ballad
-171,Tu Jaane Na,Pritam,Atif Aslam,Hindi,Romantic,Ballad
-172,Pehli Nazar Mein,Pritam,Atif Aslam,Hindi,Romantic,Ballad
-173,Jeene Laga Hoon,Pritam,Atif Aslam,Hindi,Romantic,Ballad
-174,Tere Sang Yaara,Atif Aslam,Atif Aslam,Hindi,Romantic,Ballad
-175,Dil Meri Na Sune,Atif Aslam,Atif Aslam,Hindi,Sad,Ballad
-176,Main Rang Sharbaton Ka,Atif Aslam,Atif Aslam,Hindi,Happy,Pop
-177,Wo Ladki,Atif Aslam,Atif Aslam,Hindi,Romantic,Pop
-178,Aadat,Atif Aslam,Atif Aslam,Hindi,Sad,Rock
-179,Tere Bin,Atif Aslam,Atif Aslam,Hindi,Romantic,Rock
-180,Doorie,Atif Aslam,Atif Aslam,Hindi,Sad,Rock
-181,Kinna Sona,Atif Aslam,Atif Aslam,Punjabi,Romantic,Pop
-182,Tajdar-e-Haram,Atif Aslam,Atif Aslam,Urdu,Spiritual,Sufi
-183,Dil Diyan Gallan,Vishal-Shekhar,Atif Aslam,Hindi,Romantic,Ballad
-184,Tere Sang Yaara,Atif Aslam,Atif Aslam,Hindi,Romantic,Ballad
-185,Jeena Jeena,Atif Aslam,Atif Aslam,Hindi,Romantic,Ballad
-186,Soch Na Sake,Amaal Mallik,Arijit Singh,Hindi,Romantic,Ballad
-187,Bolna,Arijit Singh,Arijit Singh,Hini,Romantic,Ballad
-188,Nashe Si Chadh Gayi,Vishal-Shekhar,Arijit Singh,Hindi,Energetic,Dance
-189,Kar Gayi Chull,Badshah,Arijit Singh,Hindi,Energetic,Dance
-190,Badtameez Dil,Pritam,Benny Dayal,Hindi,Energetic,Dance
-191,The Humma Song,A.R. Rahman,Badshah,Hindi,Energetic,Dance
-192,Galti Se Mistake,Amit Trivedi,Arijit Singh,Hindi,Happy,Pop
-193,London Thumakda,Vishal-Shekhar,Neha Kakkar,Hindi,Energetic,Dance
-194,Swag Se Swagat,Vishal-Shekhar,Neha Kakkar,Hindi,Energetic,Dance
-195,Dilbar,Sajid-Wajid,Neha Kakkar,Hindi,Energetic,Dance
-196,Rait Zara Si,A.R. Rahman,Arijit Singh,Hindi,Romantic,Ballad
-197,Rangisari,Kanishk Seth,Kanishk Seth,Hindi,Romantic,Ballad
-198,Pasoori Nu,Arijit Singh,Arijit Singh,Hindi,Romantic,Pop
-199,Param Sundari,A.R. Rahman,Shreya Ghoshal,Hindi,Romantic,Ballad
-200,Kabhii Tumhhe,Javed Ali,Javed Ali,Hindi,Romantic,Ballad
-201,Maa,Tauseef Akhtar,Shafqat Amanat Ali,Hindi,Emotional,Ballad
-202,Mere Ghar Aayi Ek Nanhi Pari,Laxmikant-Pyarelal,Lata Mangeshkar,Hindi,Happy,Bollywood
-203,Mere Sapno Ki Rani,Laxmikant-Pyarelal,Kishore Kumar,Hindi,Romantic,Classic
-204,Maa Sherawaliye,A.R. Rahman,Shreya Ghoshal,Hindi,Devotional,Soundtrack
-205,Teri Mitti (Female Version),B Praak,Payal Dev,Hindi,Patriotic,Ballad
-206,Chhoti Si Asha,Ram Sampath,Shreya Ghoshal,Hindi,Hopeful,Pop
-207,Didi Tera Devar Deewana,R.D. Burman,Lata Mangeshkar,Hindi,Funny,Classic
-208,Phoolon Ka Taaron Ka,R.D. Burman,Lata Mangeshkar,Hindi,Happy,Classic
-209,Bole Chudiyan,Jatin-Lalit,Alka Yagnik,Hindi,Energetic,Bollywood
-210,Saathi Haath Badhana,Raj Kapoor,Manna Dey,Hindi,Motivational,Classic
-211,Bhaiyya Mere Rakhi Ke Bandhan,Naushad,Lata Mangeshkar,Hindi,Emotional,Classic
-212,My Brother My Friend,Les Friction,Les Friction,English,Inspirational,Rock
-213,Stand By Me,Ben E. King,Ben E. King,English,Comforting,Soul
-214,Papa Kehte Hain,Udit Narayan,Udit Narayan,Hindi,Inspirational,Bollywood
-215,Papa Mere Papa,Laxmikant-Pyarelal,Lata Mangeshkar,Hindi,Emotional,Classic
-216,Daddy Cool,Boney M.,Boney M.,English,Funky,Disco
-217,You Raise Me Up,Secret Garden,Josh Groban,English,Inspirational,Ballad
-218,Thank You for Being a Friend,Andrew Gold,Andrew Gold,English,Grateful,Pop
-219,Wind Beneath My Wings,Larry Henley,Bette Midler,English,Emotional,Ballad
-220,Kabhi Khushi Kabhie Gham,Jatin-Lalit,Lata Mangeshkar,Hindi,Happy,Bollywood
-221,Happy Birthday,Stevie Wonder,Stevie Wonder,English,Joyful,Pop
-222,Birthday,Katy Perry,Katy Perry,English,Energetic,Pop
-223,It's My Party,Lesley Gore,Lesley Gore,English,Playful,Pop
-224,Celebration,Kool & The Gang,Kool & The Gang,English,Energetic,Disco
-225,Janam Din,Mika Singh,Mika Singh,Hindi,Happy,Bollywood
-226,Aaj Ki Party,Mika Singh,Mika Singh,Hindi,Energetic,Bhangra
-227,Badtameez Dil (Birthday Remix),Pritam,Benny Dayal,Hindi,Energetic,Dance
-228,Party All Night,Yo Yo Honey Singh,Yo Yo Honey Singh,Hindi,Energetic,Hip-Hop
-229,High Heels,Yo Yo Honey Singh,Yo Yo Honey Singh,Hindi,Fun,Dance
-230,Happy Birthday (Punjabi Mix),Guru Randhawa,Guru Randhawa,Punjabi,Energetic,Bhangra
-231,Tum Hi Ho (Lo-Fi Remix),Ankit Tiwari,Lo-Fi Waves,Hindi,Nostalgic,Lo-Fi
-232,Despacito (Afrobeats Mix),Luis Fonsi,Burna Boy,Spanish,Sensual,Afrobeats
-233,Butter,BTS,BTS,Korean,Whimsical,K-Pop
-234,Mehbooba Mehbooba,R.D. Burman,Ananya Bhat,Hindi,Sensual,Funk
-235,Chaand Baaliyan,Aditya A,Arijit Singh,Hindi,Dreamy,Synthwave
+ID	Title	Composer	Singer	Language	Mood	Genre
+1	Apna Bana Le	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+2	Kesariya	Pritam	Arijit Singh	Hindi	Romantic	Pop
+3	Naatu Naatu	M.M. Keeravani	Rahul Sipligunj	Hindi	Energetic	Action
+4	Manike Mage Hithe	Yohani	Yohani	Sinhala	Happy	Pop
+5	Shayad	Pritam	Arijit Singh	Hindi	Sad	Ballad
+6	Shape of You	Ed Sheeran	Ed Sheeran	English	Romantic	Pop
+7	Blinding Lights	The Weeknd	The Weeknd	English	Energetic	Pop
+8	Dance Monkey	Tones and I	Tones and I	English	Energetic	Pop
+9	Stay	The Kid Laroi	Justin Bieber	English	Romantic	Pop
+10	Levitating	Dua Lipa	Dua Lipa	English	Energetic	Pop
+11	Peaches	Justin Bieber	Justin Bieber	English	Romantic	Pop
+12	Save Your Tears	The Weeknd	The Weeknd	English	Sad	Pop
+13	Watermelon Sugar	Harry Styles	Harry Styles	English	Happy	Pop
+14	Drivers License	Olivia Rodrigo	Olivia Rodrigo	English	Sad	Ballad
+15	Good 4 U	Olivia Rodrigo	Olivia Rodrigo	English	Angry	Rock
+16	Montero	Lil Nas X	Lil Nas X	English	Energetic	Hip-Hop
+17	Stay With Me	Sam Smith	Sam Smith	English	Sad	Pop
+18	As It Was	Harry Styles	Harry Styles	English	Happy	Pop
+19	Industry Baby	Lil Nas X	Lil Nas X	English	Energetic	Hip-Hop
+20	Heat Waves	Glass Animals	Glass Animals	English	Sad	Indie
+21	Better Days	Dermot Kennedy	Dermot Kennedy	English	Hopeful	Pop
+22	Despacito	Luis Fonsi	Luis Fonsi	Spanish	Romantic	Pop
+23	Uptown Funk	Mark Ronson	Bruno Mars	English	Energetic	Funk
+24	Thinking Out Loud	Ed Sheeran	Ed Sheeran	English	Romantic	Ballad
+25	Perfect	Ed Sheeran	Ed Sheeran	English	Romantic	Ballad
+26	Believer	Imagine Dragons	Imagine Dragons	English	Energetic	Rock
+27	Happier	Marshmello	Bastille	English	Sad	EDM
+28	Senorita	Shawn Mendes	Shawn Mendes	English	Romantic	Pop
+29	Counting Stars	OneRepublic	OneRepublic	English	Energetic	Pop
+30	Photograph	Ed Sheeran	Ed Sheeran	English	Romantic	Ballad
+31	See You Again	Wiz Khalifa	Charlie Puth	English	Sad	Hip-Hop
+32	Love Yourself	Justin Bieber	Justin Bieber	English	Sad	Pop
+33	Starboy	The Weeknd	The Weeknd	English	Energetic	Pop
+34	Sorry	Justin Bieber	Justin Bieber	English	Sad	Pop
+35	7 Rings	Ariana Grande	Ariana Grande	English	Confident	Pop
+36	Thank U Next	Ariana Grande	Ariana Grande	English	Empowering	Pop
+37	Old Town Road	Lil Nas X	Lil Nas X	English	Energetic	Country
+38	Sweet Child O Mine	Guns N Roses	Guns N Roses	English	Romantic	Rock
+39	Bohemian Rhapsody	Queen	Queen	English	Dramatic	Rock
+40	Hotel California	Eagles	Eagles	English	Mysterious	Rock
+41	Smells Like Teen Spirit	Nirvana	Nirvana	English	Aggressive	Grunge
+42	Imagine	John Lennon	John Lennon	English	Peaceful	Pop
+43	Like A Rolling Stone	Bob Dylan	Bob Dylan	English	Thoughtful	Rock
+44	Hey Jude	The Beatles	The Beatles	English	Comforting	Pop
+45	Whats Up	4 Non Blondes	4 Non Blondes	English	Happy	Rock
+46	Zombie	The Cranberries	The Cranberries	English	Angry	Rock
+47	Wonderwall	Oasis	Oasis	English	Melancholic	Rock
+48	Angels	Robbie Williams	Robbie Williams	English	Comforting	Pop
+49	Chaiyya Chaiyya	A.R. Rahman	Sukhwinder Singh	Hindi	Energetic	Bollywood
+50	Tum Se Hi	Pritam	Mohit Chauhan	Hindi	Romantic	Ballad
+51	Ae Dil Hai Mushkil	Pritam	Arijit Singh	Hindi	Sad	Ballad
+52	Gerua	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+53	Ilahi	Pritam	Arijit Singh	Hindi	Peaceful	Ballad
+54	Phir Bhi Tumko Chaahunga	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+55	Tera Ban Jaunga	Mithoon	Mithoon	Hindi	Romantic	Ballad
+56	Pal	Javed Ali	Javed Ali	Hindi	Romantic	Ballad
+57	Tere Vaaste	Varun Jain	Varun Jain	Hindi	Romantic	Pop
+58	Kaise Hua	Vishal Mishra	Vishal Mishra	Hindi	Romantic	Ballad
+59	Channa Mereya	Pritam	Arijit Singh	Hindi	Sad	Ballad
+60	Janam Janam	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+61	Pehla Nasha	Jatin-Lalit	Udit Narayan	Hindi	Romantic	Classic-Bollywood
+62	Tere Liye	A.R. Rahman	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+63	Kal Ho Naa Ho	Shankar-Ehsaan-Loy	Sonu Nigam	Hindi	Sad	Ballad
+64	Tum Hi Ho	Ankit Tiwari	Arijit Singh	Hindi	Romantic	Ballad
+65	Jeena Jeena	Atif Aslam	Atif Aslam	Hindi	Romantic	Ballad
+66	Soch Na Sake	Amaal Mallik	Arijit Singh	Hindi	Romantic	Ballad
+67	Bolna	Tanishk Bagchi	Arijit Singh	Hindi	Romantic	Ballad
+68	Nashe Si Chadh Gayi	Vishal-Shekhar	Arijit Singh	Hindi	Energetic	Dance
+69	Kar Gayi Chull	Badshah	Arijit Singh	Hindi	Energetic	Dance
+70	Badtameez Dil	Pritam	Benny Dayal	Hindi	Energetic	Dance
+71	The Humma Song	A.R. Rahman	Badshah	Hindi	Energetic	Dance
+72	Galti Se Mistake	Amit Trivedi	Arijit Singh	Hindi	Happy	Pop
+73	London Thumakda	Vishal-Shekhar	Labh Janjua	Hindi	Energetic	Dance
+74	Swag Se Swagat	Vishal-Shekhar	Neha Kakkar	Hindi	Energetic	Dance
+75	Dilbar	Tanishk Bagchi	Neha Kakkar	Hindi	Energetic	Dance
+76	Rait Zara Si	A.R. Rahman	Arijit Singh	Hindi	Romantic	Ballad
+77	Raataan Lambiyan	Tanishk Bagchi	Jubin Nautiyal	Hindi	Romantic	Ballad
+78	Tum Hi Aana	Jubin Nautiyal	Jubin Nautiyal	Hindi	Romantic	Ballad
+79	Param Sundari	A.R. Rahman	Shreya Ghoshal	Hindi	Romantic	Ballad
+80	Kabhii Tumhhe	Javed Ali	Javed Ali	Hindi	Romantic	Ballad
+81	Ghungroo	Vishal-Shekhar	Arijit Singh	Hindi	Energetic	Dance
+82	Mehrama	Pritam	Darshan Raval	Hindi	Romantic	Pop
+83	Dil Ko Karaar Aaya	Neha Kakkar	Neha Kakkar	Hindi	Romantic	Pop
+84	Garmi	Badshah	Neha Kakkar	Hindi	Energetic	Dance
+85	Coca Cola	Luv Ranjan	Arijit Singh	Hindi	Romantic	Pop
+86	Tere Bin	Nusrat Fateh Ali Khan	Rahat Fateh Ali Khan	Hindi	Romantic	Sufi
+87	Tujhe Kitna Chahne Lage	Mithoon	Arijit Singh	Hindi	Romantic	Ballad
+88	Bekhayali	Sachet-Parampara	Sachet Tandon	Hindi	Sad	Ballad
+89	Dil Diyan Gallan	Vishal-Shekhar	Atif Aslam	Hindi	Romantic	Ballad
+90	Tera Yaar Hoon Main	Rochak Kohli	Arijit Singh	Hindi	Friendship	Pop
+91	Saibo	Sachin-Jigar	Shreya Ghoshal	Hindi	Romantic	Indie-Pop
+92	Khaabon Ke Parindey	A.R. Rahman	Alyssa Mendonsa	Hindi	Dreamy	Soundtrack
+93	Bulleya	Pritam	Amit Mishra	Hindi	Mysterious	Sufi-Rock
+94	Agar Tum Saath Ho	A.R. Rahman	Alka Yagnik	Hindi	Emotional	Ballad
+95	Patakha Guddi	A.R. Rahman	Nooran Sisters	Hindi	Energetic	Folk
+96	Dangal	Pritam	Daler Mehndi	Hindi	Motivational	Folk-Pop
+97	Bom Diggy Diggy	Zack Knight	Zack Knight	Hindi	Energetic	Dance-Pop
+98	O Saki Saki	Tanishk Bagchi	Neha Kakkar	Hindi	Energetic	Dance
+99	Lae Dooba	Amit Trivedi	Sunidhi Chauhan	Hindi	Romantic	Pop
+100	Koka	Badshah	Badshah	Hindi	Energetic	Hip-Hop
+101	Genda Phool	Badshah	Badshah	Hindi	Happy	Pop
+102	Morni Banke	Guru Randhawa	Guru Randhawa	Punjabi	Romantic	Pop
+103	Lahore	Guru Randhawa	Guru Randhawa	Punjabi	Energetic	Bhangra
+104	Humsafar	Badshah	Arijit Singh	Hindi	Romantic	Pop
+105	Proper Patola	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Energetic	Bhangra
+106	Do You Know	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Romantic	Pop
+107	Laembadgini	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Energetic	Bhangra
+108	Viah	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Romantic	Folk
+109	Prada	Jass Manak	Jass Manak	Punjabi	Confident	Pop
+110	Lehenga	Jass Manak	Jass Manak	Punjabi	Romantic	Pop
+111	Yaar Beli	Karan Aujla	Karan Aujla	Punjabi	Romantic	Pop
+112	Don't Look Back	Karan Aujla	Karan Aujla	Punjabi	Motivational	Pop
+113	B-Town	Karan Aujla	Karan Aujla	Punjabi	Energetic	Hip-Hop
+114	Legends	Sidhu Moosewala	Sidhu Moosewala	Punjabi	Motivational	Hip-Hop
+115	295	Sidhu Moosewala	Sidhu Moosewala	Punjabi	Aggressive	Hip-Hop
+116	So High	Sidhu Moosewala	Sidhu Moosewala	Punjabi	Confident	Hip-Hop
+117	Illegal Weapon	Jasmine Sandlas	Jasmine Sandlas	Punjabi	Energetic	Dance
+118	Surma Surma	Ammy Virk	Ammy Virk	Punjabi	Romantic	Folk
+119	Naah	Harrdy Sandhu	Harrdy Sandhu	Punjabi	Romantic	Pop
+120	Kya Baat Ay	Harrdy Sandhu	Harrdy Sandhu	Punjabi	Happy	Pop
+121	Bijlee Bijlee	Harrdy Sandhu	Harrdy Sandhu	Punjabi	Energetic	Bhangra
+122	Jannat	B Praak	B Praak	Punjabi	Romantic	Ballad
+123	Filhall	B Praak	B Praak	Punjabi	Sad	Pop
+124	Mitti Di Khushboo	Ayushmann Khurrana	Ayushmann Khurrana	Hindi	Emotional	Folk
+125	Nazm Nazm	Arko	Arko	Hindi	Romantic	Indie
+126	Teri Mitti	B Praak	B Praak	Hindi	Patriotic	Ballad
+127	Dil Bechara	A.R. Rahman	A.R. Rahman	Hindi	Sad	Soundtrack
+128	Naina	Arijit Singh	Arijit Singh	Hindi	Sad	Ballad
+129	Dil Chahta Hai	Shankar-Ehsaan-Loy	Shaan	Hindi	Happy	Pop
+130	Woh Lamhe	Pritam	Atif Aslam	Hindi	Sad	Ballad
+131	Tere Hone Laga Hoon	Pritam	Atif Aslam	Hindi	Romantic	Ballad
+132	Tu Jaane Na	Pritam	Atif Aslam	Hindi	Romantic	Ballad
+133	Pehli Nazar Mein	Pritam	Atif Aslam	Hindi	Romantic	Ballad
+134	Aadat	Atif Aslam	Atif Aslam	Hindi	Sad	Rock
+135	Tanha Dil	Shankar-Ehsaan-Loy	Shaan	Hindi	Sad	Pop
+136	Tum Hi Ho (Lo-Fi)	Ankit Tiwari	Lo-Fi Waves	Hindi	Nostalgic	Lo-Fi
+137	Butter	BTS	BTS	Korean	Whimsical	K-Pop
+138	Chaand Baaliyan	Aditya A	Aditya A	Hindi	Dreamy	Synthwave
+139	Bole Chudiyan	Jatin-Lalit	Alka Yagnik	Hindi	Energetic	Bollywood
+140	Kabhi Khushi Kabhie Gham	Jatin-Lalit	Lata Mangeshkar	Hindi	Emotional	Classic-Bollywood
+141	Maa	Shankar-Ehsaan-Loy	Shankar Mahadevan	Hindi	Emotional	Ballad
+142	Teri Mitti Female	B Praak	Payal Dev	Hindi	Patriotic	Ballad
+143	Chhoti Si Asha	Ram Sampath	Shreya Ghoshal	Hindi	Hopeful	Pop
+144	Tum Se Hi (Lo-Fi)	Pritam	Lo-Fi Dreamer	Hindi	Nostalgic	Lo-Fi
+145	Ye Dooriyan	Mohit Chauhan	Mohit Chauhan	Hindi	Sad	Indie
+146	Phir Mohabbat	Mithoon	Arijit Singh	Hindi	Sad	Ballad
+147	Ik Vaari Aa	A.R. Rahman	Arijit Singh	Hindi	Romantic	Ballad
+148	Tu Bhi Raat Hai	Papon	Papon	Hindi	Melancholic	Indie
+149	Tujhe Bhula Diya	Shekhar Ravjiani	Mohit Chauhan	Hindi	Sad	Pop
+150	Phir Le Aya Dil	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+151	Aaj Se Teri	Papon	Papon	Hindi	Romantic	Folk
+152	Kyon	Papon	Papon	Hindi	Melancholic	Indie
+153	Moh Moh Ke Dhaage	Papon	Papon	Hindi	Emotional	Folk
+154	Koi Kahe Kehta Rahe	Shankar-Ehsaan-Loy	Shaan	Hindi	Happy	Pop
+155	Ve Kamleya	Arijit Singh	Arijit Singh	Hindi	Romantic	Ballad
+156	Malang Sajna	Sachet Tandon	Sachet Tandon	Hindi	Romantic	Pop
+157	Tum Prem Ho	Arko	Arijit Singh	Hindi	Romantic	Ballad
+158	Tajdar-e-Haram	Atif Aslam	Atif Aslam	Urdu	Spiritual	Sufi
+159	Kinna Sona	Atif Aslam	Atif Aslam	Punjabi	Romantic	Pop
+160	Duniyaa	Luv Ranjan	Arijit Singh	Hindi	Happy	Pop
+161	Tu Hi Hai	Amaal Mallik	Arijit Singh	Hindi	Romantic	Ballad
+162	Sooraj Dooba Hain	Amaal Mallik	Arijit Singh	Hindi	Happy	Pop
+163	Dil Cheez Tujhe Dedi	Amaal Mallik	Arijit Singh	Hindi	Romantic	Pop
+164	DJ Waley Babu	Badshah	Badshah	Hindi	Energetic	Dance
+165	Buzz	Badshah	Aastha Gill	Hindi	Energetic	Dance
+166	Birthday	Katy Perry	Katy Perry	English	Energetic	Pop
+167	Celebration	Kool & The Gang	Kool & The Gang	English	Energetic	Disco
+168	Happy Birthday	Stevie Wonder	Stevie Wonder	English	Joyful	Pop
+169	Aaj Ki Party	Mika Singh	Mika Singh	Hindi	Energetic	Bhangra
+170	Party All Night	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Energetic	Hip-Hop
+171	High Heels	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Fun	Dance
+172	Stand By Me	Ben E. King	Ben E. King	English	Comforting	Soul
+173	You Raise Me Up	Secret Garden	Josh Groban	English	Inspirational	Ballad
+174	Wind Beneath My Wings	Larry Henley	Bette Midler	English	Emotional	Ballad
+175	Kaun Tujhe	Palak Muchhal	Palak Muchhal	Hindi	Romantic	Pop
+176	Raabta	Pritam	Arijit Singh	Hindi	Romantic	Ballad
+177	Tere Sang Yaara	Atif Aslam	Atif Aslam	Hindi	Romantic	Ballad
+178	Kaise Hua (Wedding Version)	Vishal Mishra	Vishal Mishra	Hindi	Romantic	Ballad
+179	Channa Ve	Asees Kaur	Asees Kaur	Hindi	Romantic	Folk-Pop
+180	Sauda Khara Khara	Happy Raikoti	Diljit Dosanjh	Punjabi	Happy	Bhangra
+181	Bamb Aa Gaya	Amrit Maan	Amrit Maan	Punjabi	Energetic	Bhangra
+182	Lover (Diljit)	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Romantic	Pop
+183	Born to Shine	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Confident	Pop
+184	Goat	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Confident	Hip-Hop
+185	G.O.A.T	Diljit Dosanjh	Diljit Dosanjh	Punjabi	Energetic	Hip-Hop
+186	Ikk Kudi	Amit Trivedi	Alia Bhatt	Hindi	Peaceful	Indie-Folk
+187	Ae Watan	Shankar-Ehsaan-Loy	Arijit Singh	Hindi	Patriotic	Ballad
+188	Sandese Aate Hai	Anu Malik	Sonu Nigam	Hindi	Patriotic	Classic-Bollywood
+189	Mile Sur Mera Tumhara	Various	Various	Hindi	Patriotic	Folk
+190	Vande Mataram	A.R. Rahman	A.R. Rahman	Hindi	Patriotic	Folk
+191	Chak De India	Salim-Sulaiman	Sukhwinder Singh	Hindi	Motivational	Pop
+192	Swades	A.R. Rahman	Udit Narayan	Hindi	Emotional	Soundtrack
+193	Rang De Basanti	A.R. Rahman	Daler Mehndi	Hindi	Energetic	Folk-Rock
+194	Jai Ho	A.R. Rahman	Sukhwinder Singh	Hindi	Motivational	Folk-Dance
+195	Tum Ho	Mohit Chauhan	Mohit Chauhan	Hindi	Romantic	Ballad
+196	Kuch Kuch Hota Hai	Jatin-Lalit	Udit Narayan	Hindi	Romantic	Classic-Bollywood
+197	Dil To Pagal Hai	Uttam Singh	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+198	Mere Haath Mein	Shankar-Ehsaan-Loy	Udit Narayan	Hindi	Romantic	Pop
+199	Suraj Hua Maddham	Jatin-Lalit	Kavita Krishnamurthy	Hindi	Romantic	Classic-Bollywood
+200	Rabba	Shankar-Ehsaan-Loy	Mohit Chauhan	Hindi	Sad	Ballad
+201	Dynamite	BTS	BTS	Korean	Energetic	K-Pop
+202	Fake Love	BTS	BTS	Korean	Sad	K-Pop
+203	Boy With Luv	BTS	BTS	Korean	Happy	K-Pop
+204	Spring Day	BTS	BTS	Korean	Melancholic	K-Pop
+205	DNA	BTS	BTS	Korean	Energetic	K-Pop
+206	Idol	BTS	BTS	Korean	Confident	K-Pop
+207	Growl	EXO	EXO	Korean	Energetic	K-Pop
+208	Love Shot	EXO	EXO	Korean	Energetic	K-Pop
+209	Power	EXO	EXO	Korean	Energetic	K-Pop
+210	Call Me Baby	EXO	EXO	Korean	Happy	K-Pop
+211	Next Level	SM Entertainment	Aespa	Korean	Confident	K-Pop
+212	Black Mamba	SM Entertainment	Aespa	Korean	Energetic	K-Pop
+213	Fancy	JYP Entertainment	TWICE	Korean	Happy	K-Pop
+214	TT	JYP Entertainment	TWICE	Korean	Playful	K-Pop
+215	Feel Special	JYP Entertainment	TWICE	Korean	Empowering	K-Pop
+216	SOLO	YG Entertainment	JENNIE	Korean	Confident	K-Pop
+217	How You Like That	YG Entertainment	BLACKPINK	Korean	Energetic	K-Pop
+218	Lovesick Girls	YG Entertainment	BLACKPINK	Korean	Sad	K-Pop
+219	Pink Venom	YG Entertainment	BLACKPINK	Korean	Aggressive	K-Pop
+220	Shut Down	YG Entertainment	BLACKPINK	Korean	Confident	K-Pop
+221	Stressed Out	Twenty One Pilots	Twenty One Pilots	English	Anxious	Alternative
+222	Ride	Twenty One Pilots	Twenty One Pilots	English	Melancholic	Alternative
+223	Heathens	Twenty One Pilots	Twenty One Pilots	English	Mysterious	Alternative
+224	Tear In My Heart	Twenty One Pilots	Twenty One Pilots	English	Happy	Alternative
+225	Jumpsuit	Twenty One Pilots	Twenty One Pilots	English	Dramatic	Alternative
+226	Radioactive	Imagine Dragons	Imagine Dragons	English	Energetic	Rock
+227	Demons	Imagine Dragons	Imagine Dragons	English	Sad	Rock
+228	Thunder	Imagine Dragons	Imagine Dragons	English	Hopeful	Rock
+229	Natural	Imagine Dragons	Imagine Dragons	English	Motivational	Rock
+230	Enemy	Imagine Dragons	Imagine Dragons	English	Aggressive	Rock
+231	Faded	Alan Walker	Alan Walker	English	Melancholic	EDM
+232	Spectre	Alan Walker	Alan Walker	English	Mysterious	EDM
+233	On My Way	Alan Walker	Alan Walker	English	Hopeful	EDM
+234	Alone	Alan Walker	Alan Walker	English	Sad	EDM
+235	The Nights	Avicii	Avicii	English	Inspirational	EDM
+236	Wake Me Up	Avicii	Avicii	English	Hopeful	EDM
+237	Levels	Avicii	Avicii	English	Energetic	EDM
+238	Hey Brother	Avicii	Avicii	English	Emotional	EDM
+239	Starlight	Muse	Muse	English	Dreamy	Rock
+240	Supermassive Black Hole	Muse	Muse	English	Energetic	Rock
+241	Sunset Lover	Petit Biscuit	Petit Biscuit	French	Peaceful	Electronic
+242	Retune	Petit Biscuit	Petit Biscuit	French	Dreamy	Electronic
+243	Something Just Like This	Coldplay	Coldplay	English	Romantic	Pop
+244	Yellow	Coldplay	Coldplay	English	Romantic	Pop
+245	The Scientist	Coldplay	Coldplay	English	Sad	Ballad
+246	Fix You	Coldplay	Coldplay	English	Comforting	Rock
+247	Paradise	Coldplay	Coldplay	English	Happy	Pop
+248	A Sky Full of Stars	Coldplay	Coldplay	English	Energetic	Pop
+249	Clocks	Coldplay	Coldplay	English	Thoughtful	Rock
+250	Magic	Coldplay	Coldplay	English	Peaceful	Pop
+251	Sunflower	Post Malone	Post Malone	English	Happy	Hip-Hop
+252	Rockstar	Post Malone	Post Malone	English	Sad	Hip-Hop
+253	Circles	Post Malone	Post Malone	English	Sad	Pop
+254	White Iverson	Post Malone	Post Malone	English	Confident	Hip-Hop
+255	Congratulations	Post Malone	Post Malone	English	Emotional	Hip-Hop
+256	Breezeblocks	Alt-J	Alt-J	English	Mysterious	Indie
+257	Something Good	Alt-J	Alt-J	English	Dreamy	Indie
+258	Tessellate	Alt-J	Alt-J	English	Melancholic	Indie
+259	Handmade	Alt-J	Alt-J	English	Peaceful	Indie
+260	Do I Wanna Know	Arctic Monkeys	Arctic Monkeys	English	Mysterious	Indie-Rock
+261	R U Mine	Arctic Monkeys	Arctic Monkeys	English	Energetic	Indie-Rock
+262	505	Arctic Monkeys	Arctic Monkeys	English	Romantic	Indie-Rock
+263	Why'd You Only Call Me When You're High	Arctic Monkeys	Arctic Monkeys	English	Melancholic	Indie-Rock
+264	Fluorescent Adolescent	Arctic Monkeys	Arctic Monkeys	English	Nostalgic	Indie-Rock
+265	Mr. Brightside	The Killers	The Killers	English	Energetic	Indie-Rock
+266	Human	The Killers	The Killers	English	Thoughtful	Rock
+267	Somebody Told Me	The Killers	The Killers	English	Energetic	Indie-Rock
+268	Marching On	OneRepublic	OneRepublic	English	Motivational	Pop
+269	Apologize	OneRepublic	OneRepublic	English	Sad	Pop
+270	If I Lose Myself	OneRepublic	OneRepublic	English	Energetic	Pop
+271	Love Runs Out	OneRepublic	OneRepublic	English	Energetic	Rock
+272	Rescue Me	OneRepublic	OneRepublic	English	Hopeful	Pop
+273	Let Her Go	Passenger	Passenger	English	Sad	Indie-Folk
+274	Keep Me In Mind	Passenger	Passenger	English	Melancholic	Indie-Folk
+275	Scare Away the Dark	Passenger	Passenger	English	Hopeful	Indie-Folk
+276	Bones	Imagine Dragons	Imagine Dragons	English	Energetic	Rock
+277	Enemy ft Arcane	Imagine Dragons	Imagine Dragons	English	Aggressive	Rock
+278	Follow You	Imagine Dragons	Imagine Dragons	English	Romantic	Rock
+279	Slow Down	Rudimental	Mahalia	English	Romantic	Soul
+280	True Colors	Anna Kendrick	Anna Kendrick	English	Emotional	Pop
+281	Story of My Life	One Direction	One Direction	English	Sad	Pop
+282	What Makes You Beautiful	One Direction	One Direction	English	Happy	Pop
+283	Night Changes	One Direction	One Direction	English	Romantic	Pop
+284	Little Things	One Direction	One Direction	English	Romantic	Ballad
+285	Kiss You	One Direction	One Direction	English	Playful	Pop
+286	Mama	Jonas Brothers	Jonas Brothers	English	Happy	Pop
+287	Sucker	Jonas Brothers	Jonas Brothers	English	Happy	Pop
+288	Cool	Jonas Brothers	Jonas Brothers	English	Confident	Pop
+289	Burnin Up	Jonas Brothers	Jonas Brothers	English	Energetic	Pop
+290	Flowers	Miley Cyrus	Miley Cyrus	English	Empowering	Pop
+291	Wrecking Ball	Miley Cyrus	Miley Cyrus	English	Sad	Pop
+292	The Climb	Miley Cyrus	Miley Cyrus	English	Motivational	Pop
+293	Roar	Katy Perry	Katy Perry	English	Empowering	Pop
+294	Firework	Katy Perry	Katy Perry	English	Inspirational	Pop
+295	Dark Horse	Katy Perry	Katy Perry	English	Mysterious	Pop
+296	Teenage Dream	Katy Perry	Katy Perry	English	Happy	Pop
+297	Rolling in the Deep	Adele	Adele	English	Angry	Soul
+298	Someone Like You	Adele	Adele	English	Sad	Ballad
+299	Hello	Adele	Adele	English	Sad	Ballad
+300	Set Fire to the Rain	Adele	Adele	English	Dramatic	Soul
+301	Skyfall	Adele	Adele	English	Dramatic	Ballad
+302	Easy On Me	Adele	Adele	English	Sad	Ballad
+303	Halo	Beyonce	Beyonce	English	Romantic	Pop
+304	Crazy in Love	Beyonce	Beyonce	English	Energetic	R&B
+305	Love On Top	Beyonce	Beyonce	English	Happy	R&B
+306	Lemonade	Beyonce	Beyonce	English	Empowering	R&B
+307	Run the World	Beyonce	Beyonce	English	Empowering	Pop
+308	Hold On	Justin Bieber	Justin Bieber	English	Hopeful	Pop
+309	Ghost	Justin Bieber	Justin Bieber	English	Sad	Pop
+310	Anyone	Justin Bieber	Justin Bieber	English	Romantic	Pop
+311	Intentions	Justin Bieber	Quavo	English	Romantic	R&B
+312	All I Want for Christmas Is You	Mariah Carey	Mariah Carey	English	Joyful	Christmas
+313	Jingle Bell Rock	Bobby Helms	Bobby Helms	English	Joyful	Christmas
+314	Last Christmas	George Michael	Wham	English	Sad	Christmas
+315	White Christmas	Bing Crosby	Bing Crosby	English	Peaceful	Christmas
+316	Winter Wonderland	Felix Bernard	Dean Martin	English	Joyful	Christmas
+317	Srivalli	Devi Sri Prasad	Sid Sriram	Telugu	Sad	Soundtrack
+318	Pushpa Pushpa	Devi Sri Prasad	Nakash Aziz	Telugu	Energetic	Action
+319	Oo Antava	Devi Sri Prasad	Indravathi Chauhan	Telugu	Sensual	Dance
+320	Buttabomma	Armaan Malik	Armaan Malik	Telugu	Romantic	Pop
+321	Saami Saami	Devi Sri Prasad	Mounika Yadav	Telugu	Energetic	Dance
+322	Kannazhaga	Anirudh Ravichander	Dhanush	Tamil	Romantic	Pop
+323	Why This Kolaveri Di	Anirudh Ravichander	Dhanush	Tamil	Fun	Pop
+324	Rowdy Baby	Yuvan Shankar Raja	Dhanush	Tamil	Energetic	Dance
+325	Maari Theme	Anirudh Ravichander	Anirudh Ravichander	Tamil	Energetic	Action
+326	Rekka	Anirudh Ravichander	Anirudh Ravichander	Tamil	Energetic	Dance
+327	Unnai Kaanadhu Naan	A.R. Rahman	Karthik	Tamil	Romantic	Ballad
+328	Vennilave Vennilave	A.R. Rahman	Unnikrishnan	Tamil	Romantic	Classic
+329	Muqabla	A.R. Rahman	Haricharan	Hindi	Energetic	Dance
+330	Aa Jao Na	Vishal-Shekhar	Arijit Singh	Hindi	Romantic	Pop
+331	Lo Safar	Jubin Nautiyal	Jubin Nautiyal	Hindi	Sad	Ballad
+332	Judaai	Atif Aslam	Atif Aslam	Hindi	Sad	Ballad
+333	Dil Ibadat	Pritam	K.K.	Hindi	Romantic	Ballad
+334	Teri Ore	Pritam	Rahat Fateh Ali Khan	Hindi	Romantic	Ballad
+335	Ankhon Mein Teri	Shankar-Ehsaan-Loy	K.K.	Hindi	Sad	Ballad
+336	Tu Hi Meri Shab Hai	Pritam	Mohit Chauhan	Hindi	Romantic	Ballad
+337	Khuda Jaane	Shankar-Ehsaan-Loy	K.K.	Hindi	Sad	Pop
+338	Pehli Baar Mohabbat	Kailash Kher	Kailash Kher	Hindi	Romantic	Indie
+339	Teri Deewani	Kailash Kher	Kailash Kher	Hindi	Devotional	Folk-Pop
+340	Saiyyan	Kailash Kher	Kailash Kher	Hindi	Happy	Folk-Pop
+341	Tu Hai	A.R. Rahman	Mohit Chauhan	Hindi	Romantic	Ballad
+342	Jab Se Tere Naina	Shantanu Moitra	Shantanu Moitra	Hindi	Romantic	Ballad
+343	Tujh Mein Rab Dikhta Hai	Salim-Sulaiman	Roop Kumar Rathod	Hindi	Romantic	Ballad
+344	Abhi Mujh Mein Kahin	Pritam	Sonu Nigam	Hindi	Sad	Ballad
+345	Ye Tune Kya Kiya	Pritam	Lucky Ali	Hindi	Melancholic	Indie
+346	Ae Dil Hai Mushkil (Title)	Pritam	Arijit Singh	Hindi	Sad	Ballad
+347	Jeete Hain Chal	Pritam	Arijit Singh	Hindi	Motivational	Pop
+348	Sooha Saaha	A.R. Rahman	Nooran Sisters	Hindi	Energetic	Folk
+349	Patola	Badshah	Aastha Gill	Hindi	Energetic	Dance
+350	Suit Suit	Guru Randhawa	Guru Randhawa	Hindi	Energetic	Dance-Pop
+351	High Rated Gabru	Guru Randhawa	Guru Randhawa	Punjabi	Confident	Pop
+352	Ishare Tere	Guru Randhawa	Guru Randhawa	Hindi	Romantic	Dance-Pop
+353	Made In India	Guru Randhawa	Guru Randhawa	Hindi	Happy	Pop
+354	Slowly Slowly	Guru Randhawa	Guru Randhawa	Hindi	Romantic	Pop
+355	Nain Na Jodi	Guru Randhawa	Guru Randhawa	Hindi	Romantic	Pop
+356	Raat Kamaal Hai	Guru Randhawa	Guru Randhawa	Hindi	Romantic	Pop
+357	Nasha	Karan Aujla	Karan Aujla	Punjabi	Sad	Hip-Hop
+358	Yaarian	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Friendship	Hip-Hop
+359	Angreji Beat	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Energetic	Hip-Hop
+360	Blue Eyes	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Romantic	Pop
+361	Breakup Song	Pritam	Arijit Singh	Hindi	Sad	Dance-Pop
+362	Baby Ko Bass Pasand Hai	Vishal-Shekhar	Vishal Dadlani	Hindi	Energetic	Dance
+363	Balam Pichkari	Vishal-Shekhar	Shalmali Kholgade	Hindi	Happy	Bollywood
+364	Galliyan	Ankit Tiwari	Ankit Tiwari	Hindi	Sad	Ballad
+365	Lag Ja Gale	Madan Mohan	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+366	Ajeeb Dastan Hai Yeh	Shankar-Jaikishan	Lata Mangeshkar	Hindi	Melancholic	Classic-Bollywood
+367	Mere Ankhon Ki Palkein	Roshan	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+368	Pyar Kiya To Darna Kya	Naushad	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+369	Tere Bina Zindagi Se	R.D. Burman	Kishore Kumar	Hindi	Romantic	Classic-Bollywood
+370	Roop Tera Mastana	S.D. Burman	Kishore Kumar	Hindi	Romantic	Classic-Bollywood
+371	Oh Saathi Re	R.D. Burman	Kishore Kumar	Hindi	Sad	Classic-Bollywood
+372	Yeh Kahan Aa Gaye Hum	Shiv-Hari	Lata Mangeshkar	Hindi	Romantic	Classic-Bollywood
+373	Main Shayar To Nahin	R.D. Burman	Shailendra Singh	Hindi	Happy	Classic-Bollywood
+374	Yeh Sham Mastani	R.D. Burman	Kishore Kumar	Hindi	Happy	Classic-Bollywood
+375	Ek Ladki Ko Dekha	Vidhu Vinod Chopra	Kumar Sanu	Hindi	Romantic	Classic-Bollywood
+376	Pag Ghungroo Baandh	Laxmikant-Pyarelal	Lata Mangeshkar	Hindi	Energetic	Classic-Bollywood
+377	Senorita (Bollywood)	Shantanu Moitra	Sonu Nigam	Hindi	Romantic	Pop
+378	Zara Sa	Pritam	K.K.	Hindi	Romantic	Ballad
+379	Bachna Ae Haseeno	Usha Uthup	Usha Uthup	Hindi	Happy	Classic-Bollywood
+380	Ye Ishq Haaye	Shantanu Moitra	Shilpa Rao	Hindi	Romantic	Indie
+381	Slow Motion	Vishal-Shekhar	Nakash Aziz	Hindi	Energetic	Dance
+382	Hauli Hauli	Tanishk Bagchi	Neha Kakkar	Hindi	Romantic	Dance-Pop
+383	Dheere Dheere Se	Yo Yo Honey Singh	Yo Yo Honey Singh	Hindi	Romantic	Pop
+384	Kuch To Bata	Jubin Nautiyal	Jubin Nautiyal	Hindi	Romantic	Pop
+385	Tu Aake Dekhle	Sachet Tandon	Sachet Tandon	Hindi	Romantic	Pop
+386	Teri Aankhon Mein	Darshan Raval	Darshan Raval	Hindi	Romantic	Pop
+387	Aaya Na Tu	Arjun Kanungo	Arjun Kanungo	Hindi	Sad	Pop
+388	Rula Deti Hai	Darshan Raval	Darshan Raval	Hindi	Sad	Pop
+389	Ik Tera	Maninder Buttar	Maninder Buttar	Punjabi	Romantic	Pop
+390	Qismat	Ammy Virk	Ammy Virk	Punjabi	Sad	Ballad
+391	Tenu Leke	Udit Narayan	Udit Narayan	Hindi	Romantic	Classic-Bollywood
+392	Agar Tu Hota	Jubin Nautiyal	Jubin Nautiyal	Hindi	Sad	Ballad
+393	Lut Gaye	Jubin Nautiyal	Jubin Nautiyal	Hindi	Sad	Pop
+394	Baarish	Mohit Chauhan	Mohit Chauhan	Hindi	Romantic	Pop
+395	Sawaar Loon	Mohit Chauhan	Mohit Chauhan	Hindi	Romantic	Indie
+396	Mann Mera	Gajendra Verma	Gajendra Verma	Hindi	Sad	Indie-Pop
+397	Emptiness	Gajendra Verma	Gajendra Verma	Hindi	Sad	Indie-Pop
+398	Tera Ghata	Gajendra Verma	Gajendra Verma	Hindi	Sad	Indie-Pop
+399	Dil Sambhal Ja Zara	Gajendra Verma	Gajendra Verma	Hindi	Melancholic	Indie-Pop
+400	Ik Vaari	A.R. Rahman	Arijit Singh	Hindi	Romantic	Ballad
+401	Happy	Pharrell Williams	Pharrell Williams	English	Happy	Funk
+402	Can't Stop the Feeling	Justin Timberlake	Justin Timberlake	English	Happy	Pop
+403	Shake It Off	Taylor Swift	Taylor Swift	English	Happy	Pop
+404	Love Story	Taylor Swift	Taylor Swift	English	Romantic	Pop
+405	You Belong With Me	Taylor Swift	Taylor Swift	English	Romantic	Pop
+406	Blank Space	Taylor Swift	Taylor Swift	English	Dramatic	Pop
+407	Bad Blood	Taylor Swift	Taylor Swift	English	Angry	Pop
+408	Anti-Hero	Taylor Swift	Taylor Swift	English	Melancholic	Pop
+409	Cruel Summer	Taylor Swift	Taylor Swift	English	Energetic	Pop
+410	Willow	Taylor Swift	Taylor Swift	English	Dreamy	Indie-Folk
+411	August	Taylor Swift	Taylor Swift	English	Nostalgic	Indie-Folk
+412	Cardigan	Taylor Swift	Taylor Swift	English	Melancholic	Indie-Folk
+413	Exile	Taylor Swift	Taylor Swift	English	Sad	Indie-Folk
+414	Lover	Taylor Swift	Taylor Swift	English	Romantic	Pop
+415	Enchanted	Taylor Swift	Taylor Swift	English	Romantic	Pop
+416	All Too Well	Taylor Swift	Taylor Swift	English	Sad	Indie-Folk
+417	Midnight Rain	Taylor Swift	Taylor Swift	English	Dreamy	Pop
+418	Lavender Haze	Taylor Swift	Taylor Swift	English	Romantic	Pop
+419	Bejeweled	Taylor Swift	Taylor Swift	English	Confident	Pop
+420	Karma	Taylor Swift	Taylor Swift	English	Empowering	Pop
+421	bad guy	Billie Eilish	Billie Eilish	English	Confident	Alternative
+422	Ocean Eyes	Billie Eilish	Billie Eilish	English	Dreamy	Alternative
+423	when the party's over	Billie Eilish	Billie Eilish	English	Sad	Alternative
+424	everything i wanted	Billie Eilish	Billie Eilish	English	Melancholic	Alternative
+425	Therefore I Am	Billie Eilish	Billie Eilish	English	Confident	Alternative
+426	Happier Than Ever	Billie Eilish	Billie Eilish	English	Empowering	Alternative
+427	Your Power	Billie Eilish	Billie Eilish	English	Thoughtful	Alternative
+428	Getting Older	Billie Eilish	Billie Eilish	English	Reflective	Alternative
+429	Lovely	Billie Eilish	Billie Eilish	English	Sad	Alternative
+430	No Time to Die	Billie Eilish	Billie Eilish	English	Dramatic	Alternative
+431	Adore You	Harry Styles	Harry Styles	English	Romantic	Pop
+432	Golden	Harry Styles	Harry Styles	English	Happy	Pop
+433	Fine Line	Harry Styles	Harry Styles	English	Sad	Pop
+434	Matilda	Harry Styles	Harry Styles	English	Emotional	Indie-Folk
+435	Music for a Sushi Restaurant	Harry Styles	Harry Styles	English	Fun	Funk
+436	Padam Padam	Kylie Minogue	Kylie Minogue	English	Energetic	Dance
+437	Running Up That Hill	Kate Bush	Kate Bush	English	Dreamy	Alternative
+438	Take On Me	A-Ha	A-Ha	English	Energetic	Pop
+439	Don't You Want Me	The Human League	The Human League	English	Energetic	Pop
+440	Come On Eileen	Dexys Midnight Runners	Dexys Midnight Runners	English	Happy	Folk-Rock
+441	Blue	Eiffel 65	Eiffel 65	English	Nostalgic	EDM
+442	Barbie Girl	Aqua	Aqua	English	Playful	Pop
+443	Mambo No. 5	Lou Bega	Lou Bega	English	Fun	Pop
+444	Smooth	Santana	Santana	English	Romantic	Latin-Rock
+445	La Bamba	Ritchie Valens	Ritchie Valens	Spanish	Energetic	Latin
+446	Chan Chan	Buena Vista Social Club	Buena Vista Social Club	Spanish	Peaceful	Latin
+447	Besame Mucho	Consuelo Velazquez	Various	Spanish	Romantic	Latin
+448	Corazon Espinado	Santana	Mana	Spanish	Romantic	Latin-Rock
+449	Vivir Mi Vida	Marc Anthony	Marc Anthony	Spanish	Happy	Salsa
+450	Hips Don't Lie	Shakira	Shakira	Spanish	Energetic	Latin-Pop
+451	Waka Waka	Shakira	Shakira	English	Energetic	Latin-Pop
+452	Loca	Shakira	Shakira	Spanish	Energetic	Latin-Pop
+453	Chantaje	Shakira	Shakira	Spanish	Romantic	Latin-Pop
+454	Me Gusta	Anitta	Anitta	Spanish	Energetic	Latin-Pop
+455	Con Calma	Daddy Yankee	Daddy Yankee	Spanish	Energetic	Reggaeton
+456	Gasolina	Daddy Yankee	Daddy Yankee	Spanish	Energetic	Reggaeton
+457	Danza Kuduro	Don Omar	Don Omar	Spanish	Energetic	Reggaeton
+458	Bamboleo	Gipsy Kings	Gipsy Kings	Spanish	Energetic	Latin
+459	My Way	Frank Sinatra	Frank Sinatra	English	Reflective	Jazz-Pop
+460	Fly Me to the Moon	Bart Howard	Frank Sinatra	English	Romantic	Jazz
+461	New York New York	John Kander	Frank Sinatra	English	Motivational	Jazz-Pop
+462	Feeling Good	Anthony Newley	Nina Simone	English	Empowering	Jazz
+463	La Vie en Rose	Edith Piaf	Edith Piaf	French	Romantic	Chanson
+464	Autumn Leaves	Joseph Kosma	Nat King Cole	English	Melancholic	Jazz
+465	Blue Bossa	Kenny Dorham	Various	English	Peaceful	Jazz
+466	Take Five	Dave Brubeck	Dave Brubeck Quartet	English	Peaceful	Jazz
+467	So What	Miles Davis	Miles Davis Quintet	English	Peaceful	Jazz
+468	Summertime	George Gershwin	Ella Fitzgerald	English	Peaceful	Jazz
+469	Misty	Erroll Garner	Johnny Mathis	English	Romantic	Jazz
+470	Lofi Hip Hop Study Beats	Various	Various	English	Peaceful	Lo-Fi
+471	Chill Lo-Fi Beats	Various	Various	English	Nostalgic	Lo-Fi
+472	Lo-fi Rainfall	Various	Various	English	Peaceful	Lo-Fi
+473	Midnight Lofi Vibes	Various	Various	English	Dreamy	Lo-Fi
+474	Coffee Shop Beats	Various	Various	English	Peaceful	Lo-Fi
+475	Rainy Day Lofi	Various	Various	English	Melancholic	Lo-Fi
+476	Study Session Beats	Various	Various	English	Thoughtful	Lo-Fi
+477	Sunset Chillhop	Various	Various	English	Peaceful	Lo-Fi
+478	Night Drive Beats	Various	Various	English	Nostalgic	Lo-Fi
+479	Sleeping Lo-Fi	Various	Various	English	Peaceful	Lo-Fi
+480	Tum Ho Mere Kya	Mohit Chauhan	Mohit Chauhan	Hindi	Romantic	Indie
+481	Kabira	Pritam	Tochi Raina	Hindi	Peaceful	Indie-Folk
+482	Kun Faya Kun	A.R. Rahman	A.R. Rahman	Hindi	Spiritual	Sufi
+483	Dama Dam Mast Qalandar	Traditional	Nusrat Fateh Ali Khan	Urdu	Spiritual	Sufi
+484	Mast Mast	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Spiritual	Sufi
+485	Allah Ke Bande	Ustad Zakir Hussain	Kailash Kher	Hindi	Motivational	Folk-Pop
+486	Jugni	Rabbi Shergill	Rabbi Shergill	Punjabi	Spiritual	Folk-Rock
+487	Bulla Ki Jaana	Rabbi Shergill	Rabbi Shergill	Punjabi	Spiritual	Folk-Rock
+488	Aao Milo Chalen	Saeed Akhtar	Kailash Kher	Hindi	Peaceful	Folk-Pop
+489	Ranjha	Sachet Tandon	Sachet Tandon	Hindi	Romantic	Pop
+490	Pasoori	Shae Gill	Shae Gill	Punjabi	Romantic	Indie-Pop
+491	Kahani Suno 2.0	Kaifi Khalil	Kaifi Khalil	Urdu	Sad	Indie-Pop
+492	Tu Jhoom	Naseebo Lal	Naseebo Lal	Urdu	Spiritual	Sufi
+493	Afreen Afreen	Nusrat Fateh Ali Khan	Rahat Fateh Ali Khan	Urdu	Romantic	Sufi
+494	Laila O Laila	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Energetic	Sufi
+495	Tumhare Siwa	Shafqat Amanat Ali	Shafqat Amanat Ali	Urdu	Romantic	Sufi
+496	Man Kunto Maula	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Spiritual	Sufi
+497	Dekha Ek Khwaab	Shiv-Hari	Lata Mangeshkar	Hindi	Dreamy	Classic-Bollywood
+498	Aanewala Pal	Gulzar	Kishore Kumar	Hindi	Melancholic	Classic-Bollywood
+499	Zindagi Na Milegi Dobara	Shankar-Ehsaan-Loy	Sonu Nigam	Hindi	Motivational	Indie-Rock
+500	Pumped Up Kicks	Foster The People	Foster The People	English	Mysterious	Indie-Rock
+501	Electric Feel	MGMT	MGMT	English	Energetic	Indie-Electronic
+502	Kids	MGMT	MGMT	English	Nostalgic	Indie-Electronic
+503	Time to Pretend	MGMT	MGMT	English	Dreamy	Indie-Electronic
+504	Little Dark Age	MGMT	MGMT	English	Mysterious	Synthwave
+505	Midnight City	M83	M83	English	Dreamy	Synthwave
+506	Intro	The xx	The xx	English	Peaceful	Indie-Electronic
+507	Crystalised	The xx	The xx	English	Melancholic	Indie-Electronic
+508	Islands	The xx	The xx	English	Dreamy	Indie-Electronic
+509	On Hold	The xx	The xx	English	Reflective	Indie-Electronic
+510	I Dare You	The xx	The xx	English	Confident	Indie-Electronic
+511	Blue Ridge Mountains	Fleet Foxes	Fleet Foxes	English	Peaceful	Indie-Folk
+512	White Winter Hymnal	Fleet Foxes	Fleet Foxes	English	Peaceful	Indie-Folk
+513	Helplessness Blues	Fleet Foxes	Fleet Foxes	English	Reflective	Indie-Folk
+514	Mykonos	Fleet Foxes	Fleet Foxes	English	Hopeful	Indie-Folk
+515	Montezuma	Fleet Foxes	Fleet Foxes	English	Melancholic	Indie-Folk
+516	The Wolves	Bon Iver	Bon Iver	English	Emotional	Indie-Folk
+517	Skinny Love	Bon Iver	Bon Iver	English	Sad	Indie-Folk
+518	Holocene	Bon Iver	Bon Iver	English	Melancholic	Indie-Folk
+519	Towers	Bon Iver	Bon Iver	English	Peaceful	Indie-Folk
+520	Flume	Bon Iver	Bon Iver	English	Dreamy	Indie-Folk
+521	Beth Rest	Bon Iver	Bon Iver	English	Comforting	Indie-Folk
+522	Stubborn Love	The Lumineers	The Lumineers	English	Hopeful	Indie-Folk
+523	Ho Hey	The Lumineers	The Lumineers	English	Happy	Indie-Folk
+524	Ophelia	The Lumineers	The Lumineers	English	Romantic	Indie-Folk
+525	Cleopatra	The Lumineers	The Lumineers	English	Sad	Indie-Folk
+526	Sleep on the Floor	The Lumineers	The Lumineers	English	Hopeful	Indie-Folk
+527	Angela	The Lumineers	The Lumineers	English	Nostalgic	Indie-Folk
+528	Slow It Down	The Lumineers	The Lumineers	English	Peaceful	Indie-Folk
+529	Dog Days Are Over	Florence and The Machine	Florence and The Machine	English	Energetic	Indie-Rock
+530	Shake It Out	Florence and The Machine	Florence and The Machine	English	Hopeful	Indie-Rock
+531	You've Got the Love	Florence and The Machine	Florence and The Machine	English	Empowering	Indie-Rock
+532	Cosmic Love	Florence and The Machine	Florence and The Machine	English	Dreamy	Indie-Rock
+533	Breath of Life	Florence and The Machine	Florence and The Machine	English	Dramatic	Indie-Rock
+534	Heavy in Your Arms	Florence and The Machine	Florence and The Machine	English	Emotional	Indie-Rock
+535	Never Let Me Go	Florence and The Machine	Florence and The Machine	English	Melancholic	Indie-Rock
+536	What the Water Gave Me	Florence and The Machine	Florence and The Machine	English	Mysterious	Indie-Rock
+537	Spectacle	Childish Gambino	Childish Gambino	English	Confident	Hip-Hop
+538	3005	Childish Gambino	Childish Gambino	English	Romantic	Hip-Hop
+539	Redbone	Childish Gambino	Childish Gambino	English	Dreamy	Funk
+540	This Is America	Childish Gambino	Childish Gambino	English	Dramatic	Hip-Hop
+541	Feels Like Summer	Childish Gambino	Childish Gambino	English	Peaceful	R&B
+542	V. 3005 Camp	Childish Gambino	Childish Gambino	English	Nostalgic	Hip-Hop
+543	Telegraph Ave	Childish Gambino	Childish Gambino	English	Romantic	R&B
+544	Heartbeat	Childish Gambino	Childish Gambino	English	Romantic	Indie-Pop
+545	Losing My Religion	R.E.M.	R.E.M.	English	Melancholic	Rock
+546	Everybody Hurts	R.E.M.	R.E.M.	English	Sad	Rock
+547	Nightswimming	R.E.M.	R.E.M.	English	Nostalgic	Rock
+548	The One I Love	R.E.M.	R.E.M.	English	Angry	Rock
+549	Man on the Moon	R.E.M.	R.E.M.	English	Thoughtful	Rock
+550	Disarm	Smashing Pumpkins	Smashing Pumpkins	English	Sad	Rock
+551	1979	Smashing Pumpkins	Smashing Pumpkins	English	Nostalgic	Rock
+552	Tonight Tonight	Smashing Pumpkins	Smashing Pumpkins	English	Dramatic	Rock
+553	Zero	Smashing Pumpkins	Smashing Pumpkins	English	Aggressive	Rock
+554	Cherub Rock	Smashing Pumpkins	Smashing Pumpkins	English	Energetic	Rock
+555	Bullet With Butterfly Wings	Smashing Pumpkins	Smashing Pumpkins	English	Angry	Rock
+556	Heart-Shaped Box	Nirvana	Nirvana	English	Aggressive	Grunge
+557	Come As You Are	Nirvana	Nirvana	English	Melancholic	Grunge
+558	About a Girl	Nirvana	Nirvana	English	Sad	Grunge
+559	In Bloom	Nirvana	Nirvana	English	Energetic	Grunge
+560	Lithium	Nirvana	Nirvana	English	Melancholic	Grunge
+561	All Apologies	Nirvana	Nirvana	English	Reflective	Grunge
+562	Rape Me	Nirvana	Nirvana	English	Aggressive	Grunge
+563	Jeremy	Pearl Jam	Pearl Jam	English	Dramatic	Rock
+564	Even Flow	Pearl Jam	Pearl Jam	English	Energetic	Rock
+565	Better Man	Pearl Jam	Pearl Jam	English	Sad	Rock
+566	Black	Pearl Jam	Pearl Jam	English	Melancholic	Rock
+567	Alive	Pearl Jam	Pearl Jam	English	Motivational	Rock
+568	Numb	Linkin Park	Linkin Park	English	Sad	Nu-Metal
+569	In the End	Linkin Park	Linkin Park	English	Sad	Nu-Metal
+570	Crawling	Linkin Park	Linkin Park	English	Emotional	Nu-Metal
+571	Faint	Linkin Park	Linkin Park	English	Aggressive	Nu-Metal
+572	Somewhere I Belong	Linkin Park	Linkin Park	English	Hopeful	Nu-Metal
+573	Breaking the Habit	Linkin Park	Linkin Park	English	Emotional	Nu-Metal
+574	New Divide	Linkin Park	Linkin Park	English	Dramatic	Nu-Metal
+575	Leave Out All the Rest	Linkin Park	Linkin Park	English	Emotional	Nu-Metal
+576	One Step Closer	Linkin Park	Linkin Park	English	Aggressive	Nu-Metal
+577	Waiting for the End	Linkin Park	Linkin Park	English	Hopeful	Nu-Metal
+578	Given Up	Linkin Park	Linkin Park	English	Energetic	Nu-Metal
+579	Shadow of the Day	Linkin Park	Linkin Park	English	Sad	Nu-Metal
+580	New York State of Mind	Jay-Z	Jay-Z	English	Thoughtful	Hip-Hop
+581	Empire State of Mind	Jay-Z	Jay-Z	English	Motivational	Hip-Hop
+582	Run This Town	Jay-Z	Rihanna	English	Confident	Hip-Hop
+583	99 Problems	Jay-Z	Jay-Z	English	Aggressive	Hip-Hop
+584	Izzo	Jay-Z	Jay-Z	English	Confident	Hip-Hop
+585	HUMBLE	Kendrick Lamar	Kendrick Lamar	English	Aggressive	Hip-Hop
+586	Alright	Kendrick Lamar	Kendrick Lamar	English	Motivational	Hip-Hop
+587	Swimming Pools	Kendrick Lamar	Kendrick Lamar	English	Thoughtful	Hip-Hop
+588	Poetic Justice	Kendrick Lamar	Kendrick Lamar	English	Romantic	Hip-Hop
+589	Money Trees	Kendrick Lamar	Kendrick Lamar	English	Nostalgic	Hip-Hop
+590	Backseat Freestyle	Kendrick Lamar	Kendrick Lamar	English	Energetic	Hip-Hop
+591	Good Kid	Kendrick Lamar	Kendrick Lamar	English	Nostalgic	Hip-Hop
+592	Bitch Don't Kill My Vibe	Kendrick Lamar	Kendrick Lamar	English	Confident	Hip-Hop
+593	A.D.H.D	Kendrick Lamar	Kendrick Lamar	English	Anxious	Hip-Hop
+594	Sicko Mode	Travis Scott	Travis Scott	English	Energetic	Hip-Hop
+595	Goosebumps	Travis Scott	Travis Scott	English	Energetic	Hip-Hop
+596	Antidote	Travis Scott	Travis Scott	English	Confident	Hip-Hop
+597	Highest in the Room	Travis Scott	Travis Scott	English	Dreamy	Hip-Hop
+598	Escape Plan	Travis Scott	Travis Scott	English	Confident	Hip-Hop
+599	Life is Good	Future	Drake	English	Happy	Hip-Hop
+600	God's Plan	Drake	Drake	English	Grateful	Hip-Hop
+601	Hotline Bling	Drake	Drake	English	Sad	Hip-Hop
+602	One Dance	Drake	Kyla	English	Romantic	Afrobeats
+603	Passionfruit	Drake	Drake	English	Romantic	R&B
+604	Controlla	Drake	Drake	English	Romantic	R&B
+605	Started From the Bottom	Drake	Drake	English	Motivational	Hip-Hop
+606	HYFR	Drake	Drake	English	Confident	Hip-Hop
+607	Take Care	Drake	Rihanna	English	Sad	R&B
+608	Marvins Room	Drake	Drake	English	Sad	R&B
+609	Know Yourself	Drake	Drake	English	Confident	Hip-Hop
+610	Umbrella	Rihanna	Rihanna	English	Empowering	Pop
+611	We Found Love	Rihanna	Calvin Harris	English	Energetic	EDM
+612	Diamonds	Rihanna	Rihanna	English	Empowering	Pop
+613	Only Girl	Rihanna	Rihanna	English	Energetic	Dance
+614	Where Have You Been	Rihanna	Rihanna	English	Energetic	Dance
+615	Love the Way You Lie	Eminem	Rihanna	English	Dramatic	Hip-Hop
+616	Disturbia	Rihanna	Rihanna	English	Mysterious	Pop
+617	Shut Up and Drive	Rihanna	Rihanna	English	Energetic	Pop
+618	Needed Me	Rihanna	Rihanna	English	Confident	R&B
+619	Kiss It Better	Rihanna	Rihanna	English	Sensual	R&B
+620	Desperado	Rihanna	Rihanna	English	Sad	R&B
+621	Pour It Up	Rihanna	Rihanna	English	Confident	R&B
+622	Work	Rihanna	Rihanna	English	Energetic	Reggae
+623	Lose Yourself	Eminem	Eminem	English	Motivational	Hip-Hop
+624	Without Me	Eminem	Eminem	English	Energetic	Hip-Hop
+625	Slim Shady	Eminem	Eminem	English	Fun	Hip-Hop
+626	Rap God	Eminem	Eminem	English	Aggressive	Hip-Hop
+627	Not Afraid	Eminem	Eminem	English	Motivational	Hip-Hop
+628	Beautiful	Eminem	Eminem	English	Emotional	Hip-Hop
+629	Stan	Eminem	Dido	English	Dramatic	Hip-Hop
+630	When I'm Gone	Eminem	Eminem	English	Emotional	Hip-Hop
+631	Mockingbird	Eminem	Eminem	English	Emotional	Hip-Hop
+632	Space Bound	Eminem	Eminem	English	Romantic	Hip-Hop
+633	Guts Over Fear	Eminem	Eminem	English	Motivational	Hip-Hop
+634	Like Home	Eminem	Eminem	English	Emotional	Hip-Hop
+635	River	Eminem	Ed Sheeran	English	Sad	Hip-Hop
+636	Thinking Bout You	Frank Ocean	Frank Ocean	English	Romantic	R&B
+637	Novacane	Frank Ocean	Frank Ocean	English	Dreamy	R&B
+638	Pyramids	Frank Ocean	Frank Ocean	English	Mysterious	R&B
+639	Bad Religion	Frank Ocean	Frank Ocean	English	Sad	R&B
+640	White Ferrari	Frank Ocean	Frank Ocean	English	Dreamy	R&B
+641	Ivy	Frank Ocean	Frank Ocean	English	Nostalgic	R&B
+642	Nights	Frank Ocean	Frank Ocean	English	Melancholic	R&B
+643	Godspeed	Frank Ocean	Frank Ocean	English	Emotional	R&B
+644	Self Control	Frank Ocean	Frank Ocean	English	Melancholic	R&B
+645	Thinkin Bout You	Frank Ocean	Frank Ocean	English	Romantic	R&B
+646	Blonde	Frank Ocean	Frank Ocean	English	Nostalgic	R&B
+647	Pink Matter	Frank Ocean	Frank Ocean	English	Dreamy	R&B
+648	Sweet Life	Frank Ocean	Frank Ocean	English	Happy	R&B
+649	Super Rich Kids	Frank Ocean	Frank Ocean	English	Nostalgic	R&B
+650	Lost	Frank Ocean	Frank Ocean	English	Sad	R&B
+651	Nights Instrumental	Frank Ocean	Frank Ocean	English	Peaceful	R&B
+652	Nights Part 2	Frank Ocean	Frank Ocean	English	Dreamy	R&B
+653	Seigfried	Frank Ocean	Frank Ocean	English	Reflective	R&B
+654	Nikes	Frank Ocean	Frank Ocean	English	Dreamy	R&B
+655	Rushes	Frank Ocean	Frank Ocean	English	Peaceful	R&B
+656	Pretty Sweet	Frank Ocean	Frank Ocean	English	Whimsical	R&B
+657	Biking	Frank Ocean	Frank Ocean	English	Peaceful	R&B
+658	Provider	Frank Ocean	Frank Ocean	English	Romantic	R&B
+659	Chanel	Frank Ocean	Frank Ocean	English	Confident	R&B
+660	Lens	Frank Ocean	Frank Ocean	English	Peaceful	R&B
+661	Slide	Calvin Harris	Calvin Harris	English	Happy	Dance
+662	Summer	Calvin Harris	Calvin Harris	English	Happy	EDM
+663	Feel So Close	Calvin Harris	Calvin Harris	English	Happy	EDM
+664	Sweet Nothing	Calvin Harris	Florence Welch	English	Hopeful	EDM
+665	Under Control	Calvin Harris	Calvin Harris	English	Energetic	EDM
+666	Outside	Calvin Harris	Ellie Goulding	English	Sad	EDM
+667	Thinking About You	Calvin Harris	Calvin Harris	English	Romantic	EDM
+668	Blame	Calvin Harris	Calvin Harris	English	Energetic	EDM
+669	How Deep Is Your Love	Calvin Harris	Calvin Harris	English	Romantic	EDM
+670	Pray to God	Calvin Harris	Calvin Harris	English	Hopeful	EDM
+671	Rollin	Calvin Harris	Calvin Harris	English	Energetic	EDM
+672	Burning	Calvin Harris	Calvin Harris	English	Energetic	EDM
+673	Slow Acid	Calvin Harris	Calvin Harris	English	Mysterious	EDM
+674	Bounce	Calvin Harris	Calvin Harris	English	Energetic	EDM
+675	Flashback	Calvin Harris	Calvin Harris	English	Nostalgic	EDM
+676	Ready for the Weekend	Calvin Harris	Calvin Harris	English	Happy	EDM
+677	Stars Come Out	Calvin Harris	Calvin Harris	English	Energetic	EDM
+678	Love Me Now	Calvin Harris	Calvin Harris	English	Energetic	EDM
+679	One Kiss	Calvin Harris	Dua Lipa	English	Romantic	Dance
+680	Don't Leave Me Alone	David Guetta	Anne-Marie	English	Sad	EDM
+681	Titanium	David Guetta	Sia	English	Empowering	EDM
+682	Without You	David Guetta	Usher	English	Sad	EDM
+683	Hey Mama	David Guetta	Nicki Minaj	English	Energetic	EDM
+684	Turn Me On	David Guetta	Nicki Minaj	English	Energetic	EDM
+685	Night of Your Life	David Guetta	Jennifer Hudson	English	Hopeful	EDM
+686	Sexy Bitch	David Guetta	Akon	English	Energetic	Dance
+687	Memories	David Guetta	Kid Cudi	English	Nostalgic	EDM
+688	Gettin Over You	David Guetta	Fergie	English	Happy	EDM
+689	Bad	David Guetta	Showtek	English	Energetic	EDM
+690	Shot Me Down	David Guetta	Skylar Grey	English	Sad	EDM
+691	Dangerous	David Guetta	Sam Martin	English	Dramatic	EDM
+692	Happy Ending	Mika	Mika	English	Hopeful	Pop
+693	Grace Kelly	Mika	Mika	English	Playful	Pop
+694	Relax Take It Easy	Mika	Mika	English	Fun	Pop
+695	Big Girl You Are Beautiful	Mika	Mika	English	Empowering	Pop
+696	Any Other World	Mika	Mika	English	Sad	Pop
+697	Lollipop	Mika	Mika	English	Whimsical	Pop
+698	Rain	Mika	Mika	English	Hopeful	Pop
+699	Love Today	Mika	Mika	English	Happy	Pop
+700	We Are Golden	Mika	Mika	English	Empowering	Pop
+701	Good Guys	Mika	Mika	English	Comforting	Pop
+702	Tiny Love	Mika	Mika	English	Romantic	Pop
+703	Talking to Strangers	Mika	Mika	English	Fun	Pop
+704	Popular Song	Mika	Ariana Grande	English	Playful	Pop
+705	Last Party	Mika	Mika	English	Nostalgic	Pop
+706	Elle Me Dit	Mika	Mika	French	Energetic	Pop
+707	Paloma	Mika	Mika	French	Happy	Pop
+708	Origin of Love	Mika	Mika	English	Romantic	Pop
+709	My Interpretation	Mika	Mika	English	Reflective	Pop
+710	Stardust	Mika	Mika	English	Dreamy	Pop
+711	Ice Cream	Mika	Mika	English	Happy	Pop
+712	Underwater	Mika	Mika	English	Peaceful	Pop
+713	Hurts	Mika	Mika	English	Sad	Pop
+714	Ordinary Man	Mika	Mika	English	Sad	Pop
+715	Kick Ass	Mika	Mika	English	Fun	Pop
+716	Killing Time	Mika	Mika	English	Fun	Pop
+717	Touches You	Mika	Mika	English	Sensual	Pop
+718	Blame It On the Girls	Mika	Mika	English	Playful	Pop
+719	We Are Young	fun.	fun.	English	Hopeful	Indie-Pop
+720	Carry On	fun.	fun.	English	Motivational	Indie-Pop
+721	Some Nights	fun.	fun.	English	Reflective	Indie-Pop
+722	Why Am I the One	fun.	fun.	English	Sad	Indie-Pop
+723	At Least Im Not as Sad	fun.	fun.	English	Melancholic	Indie-Pop
+724	All Alright	fun.	fun.	English	Comforting	Indie-Pop
+725	Be Calm	fun.	fun.	English	Peaceful	Indie-Pop
+726	One Foot	fun.	fun.	English	Hopeful	Indie-Pop
+727	The Gambler	fun.	fun.	English	Thoughtful	Indie-Pop
+728	Walking the Dog	fun.	fun.	English	Playful	Indie-Pop
+729	Sight of the Sun	fun.	fun.	English	Happy	Indie-Pop
+730	Stars	fun.	fun.	English	Hopeful	Indie-Pop
+731	All the Pretty Girls	fun.	fun.	English	Romantic	Indie-Pop
+732	Barlights	fun.	fun.	English	Nostalgic	Indie-Pop
+733	Tongue Tied	fun.	fun.	English	Romantic	Indie-Pop
+734	Kilo	fun.	fun.	English	Sad	Indie-Pop
+735	Beautiful as You Are	fun.	fun.	English	Romantic	Indie-Pop
+736	Aim and Ignite	fun.	fun.	English	Energetic	Indie-Pop
+737	Take Your Time Coming Home	fun.	fun.	English	Peaceful	Indie-Pop
+738	Veronica	Elvis Costello	Elvis Costello	English	Reflective	Pop
+739	(What's So Funny Bout) Peace Love Understanding	Elvis Costello	Elvis Costello	English	Hopeful	Rock
+740	Oliver's Army	Elvis Costello	Elvis Costello	English	Thoughtful	Pop
+741	Alison	Elvis Costello	Elvis Costello	English	Romantic	Pop
+742	Every Day I Write the Book	Elvis Costello	Elvis Costello	English	Romantic	Pop
+743	She	Elvis Costello	Elvis Costello	English	Romantic	Chanson
+744	Man Out of Time	Elvis Costello	Elvis Costello	English	Reflective	Rock
+745	Pump It Up	Elvis Costello	Elvis Costello	English	Energetic	Rock
+746	This Year's Girl	Elvis Costello	Elvis Costello	English	Sad	Rock
+747	Good Year for the Roses	Elvis Costello	Elvis Costello	English	Sad	Country
+748	Angels of the Silences	Counting Crows	Counting Crows	English	Hopeful	Rock
+749	Mr. Jones	Counting Crows	Counting Crows	English	Happy	Rock
+750	A Long December	Counting Crows	Counting Crows	English	Nostalgic	Rock
+751	Round Here	Counting Crows	Counting Crows	English	Melancholic	Rock
+752	Accidentally in Love	Counting Crows	Counting Crows	English	Happy	Rock
+753	Rain King	Counting Crows	Counting Crows	English	Hopeful	Rock
+754	Anna Begins	Counting Crows	Counting Crows	English	Sad	Rock
+755	Colorblind	Counting Crows	Counting Crows	English	Peaceful	Rock
+756	Sullivan Street	Counting Crows	Counting Crows	English	Nostalgic	Rock
+757	Recovering the Satellites	Counting Crows	Counting Crows	English	Reflective	Rock
+758	Neon Moon	Brooks and Dunn	Brooks and Dunn	English	Sad	Country
+759	Friends in Low Places	Garth Brooks	Garth Brooks	English	Fun	Country
+760	Jolene	Dolly Parton	Dolly Parton	English	Emotional	Country
+761	I Will Always Love You	Dolly Parton	Dolly Parton	English	Sad	Country
+762	Take Me Home Country Roads	John Denver	John Denver	English	Nostalgic	Country
+763	Country Roads (Cover)	John Denver	John Denver	English	Happy	Country
+764	Rocky Mountain High	John Denver	John Denver	English	Peaceful	Country
+765	Leaving on a Jet Plane	John Denver	John Denver	English	Sad	Country
+766	Calypso	John Denver	John Denver	English	Happy	Folk
+767	Sunshine on My Shoulders	John Denver	John Denver	English	Peaceful	Folk
+768	Islands in the Stream	Bee Gees	Kenny Rogers	English	Romantic	Country
+769	Lucille	Kenny Rogers	Kenny Rogers	English	Sad	Country
+770	She Believes in Me	Kenny Rogers	Kenny Rogers	English	Emotional	Country
+771	Lady	Kenny Rogers	Kenny Rogers	English	Romantic	Country
+772	Wagon Wheel	Old Crow Medicine Show	Darius Rucker	English	Happy	Country
+773	Tennessee Whiskey	David Allan Coe	Chris Stapleton	English	Romantic	Country
+774	Take It Easy	Eagles	Eagles	English	Peaceful	Rock
+775	Lyin Eyes	Eagles	Eagles	English	Thoughtful	Country-Rock
+776	Best of My Love	Eagles	Eagles	English	Romantic	Rock
+777	Heartache Tonight	Eagles	Eagles	English	Energetic	Rock
+778	Already Gone	Eagles	Eagles	English	Hopeful	Rock
+779	Peaceful Easy Feeling	Eagles	Eagles	English	Peaceful	Rock
+780	One of These Nights	Eagles	Eagles	English	Energetic	Rock
+781	The Long Run	Eagles	Eagles	English	Reflective	Rock
+782	Life in the Fast Lane	Eagles	Eagles	English	Energetic	Rock
+783	Blue Suede Shoes	Carl Perkins	Elvis Presley	English	Energetic	Rockabilly
+784	Jailhouse Rock	Elvis Presley	Elvis Presley	English	Energetic	Rockabilly
+785	Hound Dog	Big Mama Thornton	Elvis Presley	English	Energetic	Rockabilly
+786	Love Me Tender	Elvis Presley	Elvis Presley	English	Romantic	Classic-Pop
+787	Can't Help Falling in Love	Hugo Peretti	Elvis Presley	English	Romantic	Classic-Pop
+788	Suspicious Minds	Mark James	Elvis Presley	English	Dramatic	Rock
+789	In the Ghetto	Mac Davis	Elvis Presley	English	Sad	Classic-Pop
+790	The Wonder of You	Baker Knight	Elvis Presley	English	Romantic	Classic-Pop
+791	All Shook Up	Elvis Presley	Elvis Presley	English	Energetic	Rockabilly
+792	Burning Love	Dennis Linde	Elvis Presley	English	Romantic	Rock
+793	A Little Less Conversation	Billy Strange	Elvis Presley	English	Fun	Rock
+794	Return to Sender	Otis Blackwell	Elvis Presley	English	Fun	Classic-Pop
+795	Teddy Bear	Elvis Presley	Elvis Presley	English	Playful	Rockabilly
+796	Heartbreak Hotel	Elvis Presley	Elvis Presley	English	Sad	Rockabilly
+797	Are You Lonesome Tonight	Roy Turk	Elvis Presley	English	Sad	Classic-Pop
+798	Little Sister	Doc Pomus	Elvis Presley	English	Energetic	Rockabilly
+799	Mystery Train	Sam Phillips	Elvis Presley	English	Mysterious	Rockabilly
+800	That's All Right	Arthur Crudup	Elvis Presley	English	Happy	Rockabilly
+801	I Want You I Need You I Love You	Ira Kosloff	Elvis Presley	English	Romantic	Classic-Pop
+802	Wooden Heart	Ernst Bruch	Elvis Presley	German	Comforting	Classic-Pop
+803	Peace in the Valley	Thomas Dorsey	Elvis Presley	English	Peaceful	Gospel
+804	If I Can Dream	W. Earl Brown	Elvis Presley	English	Hopeful	Classic-Pop
+805	Separate Ways	Steve Perry	Journey	English	Sad	Rock
+806	Dont Stop Believin	Steve Perry	Journey	English	Hopeful	Rock
+807	Any Way You Want It	Steve Perry	Journey	English	Energetic	Rock
+808	Faithfully	Steve Perry	Journey	English	Romantic	Rock
+809	Open Arms	Steve Perry	Journey	English	Romantic	Rock
+810	Wheel in the Sky	Steve Perry	Journey	English	Hopeful	Rock
+811	Lights	Steve Perry	Journey	English	Nostalgic	Rock
+812	Lovin Touchin Squeezin	Steve Perry	Journey	English	Romantic	Rock
+813	Who's Crying Now	Steve Perry	Journey	English	Sad	Rock
+814	Stone in Love	Steve Perry	Journey	English	Energetic	Rock
+815	Total Eclipse of the Heart	Jim Steinman	Bonnie Tyler	English	Dramatic	Rock
+816	I Need a Hero	Jim Steinman	Bonnie Tyler	English	Motivational	Rock
+817	Holding Out for a Hero	Jim Steinman	Bonnie Tyler	English	Energetic	Rock
+818	Its a Heartache	David Mackay	Bonnie Tyler	English	Sad	Country-Rock
+819	Lost in France	Ronnie Scott	Bonnie Tyler	English	Romantic	Pop
+820	Sweet Talkin Woman	Jeff Lynne	ELO	English	Romantic	Pop
+821	Mr. Blue Sky	Jeff Lynne	ELO	English	Happy	Pop
+822	Evil Woman	Jeff Lynne	ELO	English	Mysterious	Pop
+823	Livin Thing	Jeff Lynne	ELO	English	Energetic	Pop
+824	Dont Bring Me Down	Jeff Lynne	ELO	English	Energetic	Rock
+825	Shine a Little Love	Jeff Lynne	ELO	English	Happy	Disco
+826	All Over the World	Jeff Lynne	ELO	English	Happy	Disco
+827	Here Is the News	Jeff Lynne	ELO	English	Thoughtful	Pop
+828	Turn to Stone	Jeff Lynne	ELO	English	Mysterious	Pop
+829	Telephone Line	Jeff Lynne	ELO	English	Sad	Pop
+830	I'm Alive	Jeff Lynne	ELO	English	Hopeful	Pop
+831	Roll Over Beethoven	Jeff Lynne	ELO	English	Energetic	Rock
+832	Rockaria	Jeff Lynne	ELO	English	Fun	Rock-Opera
+833	Hold On Tight	Jeff Lynne	ELO	English	Energetic	Pop
+834	Strange Magic	Jeff Lynne	ELO	English	Dreamy	Pop
+835	Can't Get It Out of My Head	Jeff Lynne	ELO	English	Mysterious	Pop
+836	Eldorado	Jeff Lynne	ELO	English	Dreamy	Classical-Fusion
+837	10538 Overture	Jeff Lynne	ELO	English	Dramatic	Classical-Fusion
+838	The Diary of Horace Wimp	Jeff Lynne	ELO	English	Whimsical	Pop
+839	Wild West Hero	Jeff Lynne	ELO	English	Fun	Country-Pop
+840	Night in the City	Jeff Lynne	ELO	English	Energetic	Pop
+841	Fire on High	Jeff Lynne	ELO	English	Mysterious	Classical-Fusion
+842	Kurio City	Jeff Lynne	ELO	English	Playful	Pop
+843	Birmingham Blues	Jeff Lynne	ELO	English	Sad	Blues
+844	Now You're Gone	Jeff Lynne	ELO	English	Sad	Pop
+845	Across the Border	Jeff Lynne	ELO	English	Hopeful	Pop
+846	Prague	Jeff Lynne	ELO	English	Peaceful	Classical-Fusion
+847	Twilight	Jeff Lynne	ELO	English	Melancholic	Pop
+848	Yours Truly 2095	Jeff Lynne	ELO	English	Dreamy	Synthwave
+849	Time	Jeff Lynne	ELO	English	Reflective	Pop
+850	The Way Life's Meant to Be	Jeff Lynne	ELO	English	Hopeful	Pop
+851	Four Little Diamonds	Jeff Lynne	ELO	English	Fun	Pop
+852	Rock N Roll Is King	Jeff Lynne	ELO	English	Energetic	Rock
+853	Ticket to the Moon	Jeff Lynne	ELO	English	Dreamy	Pop
+854	Rain Is Falling	Jeff Lynne	ELO	English	Sad	Pop
+855	Autumn	Jeff Lynne	ELO	English	Melancholic	Classical-Fusion
+856	When Time Stood Still	Jeff Lynne	ELO	English	Nostalgic	Pop
+857	Walk and Talk	Jeff Lynne	ELO	English	Energetic	Pop
+858	Morning	Jeff Lynne	ELO	English	Peaceful	Pop
+859	Oh No Not Susan	Jeff Lynne	ELO	English	Fun	Pop
+860	Confusion	New Order	New Order	English	Energetic	Synth-Pop
+861	Blue Monday	New Order	New Order	English	Melancholic	Synth-Pop
+862	True Faith	New Order	New Order	English	Energetic	Synth-Pop
+863	Bizarre Love Triangle	New Order	New Order	English	Romantic	Synth-Pop
+864	Regret	New Order	New Order	English	Hopeful	Synth-Pop
+865	Crystal	New Order	New Order	English	Energetic	Synth-Pop
+866	Ceremony	New Order	New Order	English	Energetic	Post-Punk
+867	Age of Consent	New Order	New Order	English	Energetic	Post-Punk
+868	Love Vigilantes	New Order	New Order	English	Dramatic	Synth-Pop
+869	Perfect Kiss	New Order	New Order	English	Energetic	Synth-Pop
+870	Temptation	New Order	New Order	English	Energetic	Synth-Pop
+871	Thieves Like Us	New Order	New Order	English	Romantic	Synth-Pop
+872	Vanishing Point	New Order	New Order	English	Dreamy	Synth-Pop
+873	World in Motion	New Order	New Order	English	Energetic	Synth-Pop
+874	Run 2	New Order	New Order	English	Energetic	Synth-Pop
+875	Slow Jam	New Order	New Order	English	Dreamy	Electronic
+876	Mr. Disco	New Order	New Order	English	Happy	Synth-Pop
+877	Krafty	New Order	New Order	English	Happy	Synth-Pop
+878	Here to Stay	New Order	New Order	English	Hopeful	Synth-Pop
+879	Close Range	New Order	New Order	English	Mysterious	Synth-Pop
+880	Turn My Way	New Order	New Order	English	Hopeful	Synth-Pop
+881	Someone Like You (New Order)	New Order	New Order	English	Sad	Synth-Pop
+882	All the Way	New Order	New Order	English	Hopeful	Synth-Pop
+883	In a Lonely Place	New Order	New Order	English	Melancholic	Post-Punk
+884	Dreams Never End	New Order	New Order	English	Dreamy	Post-Punk
+885	Truth	New Order	New Order	English	Sad	Post-Punk
+886	Senses	New Order	New Order	English	Peaceful	Post-Punk
+887	586	New Order	New Order	English	Energetic	Post-Punk
+888	Everything's Gone Green	New Order	New Order	English	Energetic	Synth-Pop
+889	ICB	New Order	New Order	English	Energetic	Synth-Pop
+890	Mesh	New Order	New Order	English	Mysterious	Electronic
+891	Elegia	New Order	New Order	English	Peaceful	Electronic
+892	I	New Order	New Order	English	Reflective	Electronic
+893	State of the Nation	New Order	New Order	English	Dramatic	Synth-Pop
+894	Subculture	New Order	New Order	English	Energetic	Synth-Pop
+895	All Day Long	New Order	New Order	English	Happy	Electronic
+896	Every Little Counts	New Order	New Order	English	Hopeful	Synth-Pop
+897	Sooner Than You Think	New Order	New Order	English	Reflective	Synth-Pop
+898	Way of Life	New Order	New Order	English	Energetic	Electronic
+899	Sunrise	New Order	New Order	English	Happy	Electronic
+900	Jetstream	New Order	New Order	English	Energetic	Electronic
+901	Tu Kuja Man Kuja	Traditional Qawwali	Sabri Brothers	Urdu	Spiritual	Qawwali
+902	Piya Re Piya	Traditional Qawwali	Nusrat Fateh Ali Khan	Urdu	Spiritual	Qawwali
+903	Allah Hoo	Traditional Qawwali	Nusrat Fateh Ali Khan	Urdu	Spiritual	Qawwali
+904	Dum Mast Qalandar	Traditional	Abida Parveen	Urdu	Spiritual	Qawwali
+905	Yeh Jo Halka Halka Suroor	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Spiritual	Qawwali
+906	Sanu Ek Pal Chain Na Aave	Nusrat Fateh Ali Khan	Rahat Fateh Ali Khan	Urdu	Romantic	Qawwali
+907	Mere Rashke Qamar	Nusrat Fateh Ali Khan	Junaid Asghar	Urdu	Romantic	Qawwali
+908	Maula Maula	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Spiritual	Qawwali
+909	Na Tum Jaano Na Hum	Shankar-Ehsaan-Loy	Udit Narayan	Hindi	Romantic	Ballad
+910	Ek Din Aap	Udit Narayan	Udit Narayan	Hindi	Romantic	Classic-Bollywood
+911	Mora Saiyyan	Tanu Weds Manu	Mame Khan	Hindi	Spiritual	Folk
+912	Ik Onkar	A.R. Rahman	A.R. Rahman	Punjabi	Spiritual	Devotional
+913	Waheguru	Gurdas Maan	Gurdas Maan	Punjabi	Spiritual	Devotional
+914	Sat Shri Akaal	Gurdas Maan	Gurdas Maan	Punjabi	Energetic	Bhangra
+915	Dil Tut Gaya	Gurdas Maan	Gurdas Maan	Punjabi	Sad	Folk
+916	Chan Kithan Guzari Raat	Gurdas Maan	Gurdas Maan	Punjabi	Romantic	Folk
+917	Chal Mere Naal	Gurdas Maan	Gurdas Maan	Punjabi	Hopeful	Folk
+918	Putt Jattan De	Gurdas Maan	Gurdas Maan	Punjabi	Proud	Bhangra
+919	Ki Banu Duniya Da	Gurdas Maan	Gurdas Maan	Punjabi	Thoughtful	Folk
+920	Apni Gall Kar	Gurdas Maan	Gurdas Maan	Punjabi	Reflective	Folk
+921	Jag Jeondeyan De Mele	Gurdas Maan	Gurdas Maan	Punjabi	Happy	Folk
+922	Challa	Rabbi Shergill	Rabbi Shergill	Punjabi	Peaceful	Folk-Rock
+923	Jinhe Naaz	Shafqat Amanat Ali	Shafqat Amanat Ali	Urdu	Thoughtful	Ghazal
+924	Yaar Mangya Si Rab Toh	Shafqat Amanat Ali	Shafqat Amanat Ali	Punjabi	Grateful	Folk
+925	Mann Ki Lagan	Nusrat Fateh Ali Khan	Rahat Fateh Ali Khan	Urdu	Spiritual	Sufi
+926	Na Jane Kyon	Nusrat Fateh Ali Khan	Nusrat Fateh Ali Khan	Urdu	Melancholic	Sufi
+927	Sajna	Shafqat Amanat Ali	Shafqat Amanat Ali	Urdu	Romantic	Ghazal
+928	Ik Tara	Ustad Puran Chand Wadali	Wadali Brothers	Punjabi	Spiritual	Sufi
+929	Tenu Mileya	Nooran Sisters	Nooran Sisters	Punjabi	Happy	Folk
+930	Chitta Kukkad	Balkar Sidhu	Balkar Sidhu	Punjabi	Energetic	Bhangra
+931	Nachange Saari Raat	Gippy Grewal	Gippy Grewal	Punjabi	Energetic	Bhangra
+932	Oh Yaara	Gippy Grewal	Gippy Grewal	Punjabi	Friendship	Pop
+933	Ik Kudi Lo-Fi	Amit Trivedi	Lo-Fi Cover	Hindi	Peaceful	Lo-Fi
+934	Kesariya Lo-Fi	Pritam	Lo-Fi Waves	Hindi	Romantic	Lo-Fi
+935	Tum Hi Ho Lo-Fi	Ankit Tiwari	Lo-Fi Studio	Hindi	Sad	Lo-Fi
+936	Raataan Lambiyan Lo-Fi	Tanishk Bagchi	Lo-Fi Dreamer	Hindi	Romantic	Lo-Fi
+937	Blinding Lights Lo-Fi	The Weeknd	Chill Nation	English	Nostalgic	Lo-Fi
+938	Starboy Lo-Fi	The Weeknd	Lo-Fi Nation	English	Dreamy	Lo-Fi
+939	Sunflower Lo-Fi	Post Malone	ChilledCow	English	Happy	Lo-Fi
+940	Shape of You Lo-Fi	Ed Sheeran	Lo-Fi Vibes	English	Romantic	Lo-Fi
+941	Levitating Lo-Fi	Dua Lipa	Lo-Fi Mix	English	Happy	Lo-Fi
+942	As It Was Lo-Fi	Harry Styles	Lo-Fi Covers	English	Nostalgic	Lo-Fi
+943	Yellow Lo-Fi	Coldplay	Lo-Fi Study	English	Peaceful	Lo-Fi
+944	Wonderwall Lo-Fi	Oasis	Lofi Hip Hop	English	Melancholic	Lo-Fi
+945	Heat Waves Lo-Fi	Glass Animals	Chill Vibes	English	Sad	Lo-Fi
+946	Drivers License Lo-Fi	Olivia Rodrigo	Night Owl	English	Sad	Lo-Fi
+947	Stay Lo-Fi	The Kid Laroi	Lo-Fi Room	English	Romantic	Lo-Fi
+948	Pasoori Lo-Fi	Shae Gill	Lo-Fi Pakistan	Punjabi	Romantic	Lo-Fi
+949	Bekhayali Lo-Fi	Sachet-Parampara	Lo-Fi Bollywood	Hindi	Sad	Lo-Fi
+950	Channa Mereya Lo-Fi	Pritam	Bollywood Lofi	Hindi	Sad	Lo-Fi
+951	Kabira Lo-Fi	Pritam	Lo-Fi Chill	Hindi	Peaceful	Lo-Fi
+952	Mann Mera Lo-Fi	Gajendra Verma	Lo-Fi Mix	Hindi	Sad	Lo-Fi
+953	Kaun Banega Crorepati Theme	A.R. Rahman	A.R. Rahman	Hindi	Motivational	Soundtrack
+954	Slumdog Millionaire OST	A.R. Rahman	A.R. Rahman	English	Hopeful	Soundtrack
+955	Lagaan Theme	A.R. Rahman	A.R. Rahman	Hindi	Motivational	Soundtrack
+956	Interstellar Theme	Hans Zimmer	Hans Zimmer	Instrumental	Dramatic	Classical-Fusion
+957	The Dark Knight Theme	Hans Zimmer	Hans Zimmer	Instrumental	Dramatic	Classical-Fusion
+958	Inception Cornfield Chase	Hans Zimmer	Hans Zimmer	Instrumental	Peaceful	Classical-Fusion
+959	Gladiator Now We Are Free	Hans Zimmer	Lisa Gerrard	Instrumental	Emotional	Classical-Fusion
+960	Pirates of the Caribbean Theme	Hans Zimmer	Hans Zimmer	Instrumental	Energetic	Classical-Fusion
+961	Time from Inception	Hans Zimmer	Hans Zimmer	Instrumental	Dramatic	Classical-Fusion
+962	Avengers Theme	Alan Silvestri	Alan Silvestri	Instrumental	Motivational	Classical-Fusion
+963	Star Wars Main Theme	John Williams	John Williams	Instrumental	Energetic	Classical-Fusion
+964	Jurassic Park Theme	John Williams	John Williams	Instrumental	Dramatic	Classical-Fusion
+965	Schindlers List Theme	John Williams	Itzhak Perlman	Instrumental	Sad	Classical
+966	Harry Potter Hedwigs Theme	John Williams	John Williams	Instrumental	Whimsical	Classical-Fusion
+967	Game of Thrones Theme	Ramin Djawadi	Ramin Djawadi	Instrumental	Dramatic	Classical-Fusion
+968	Stranger Things Theme	Kyle Dixon	Kyle Dixon	Instrumental	Mysterious	Synthwave
+969	La La Land City of Stars	Justin Hurwitz	Ryan Gosling	English	Dreamy	Jazz
+970	La La Land Mia and Sebastian	Justin Hurwitz	Justin Hurwitz	Instrumental	Romantic	Jazz
+971	Whiplash Theme	Justin Hurwitz	Justin Hurwitz	Instrumental	Energetic	Jazz
+972	Moonlight Sonata	Beethoven	Various	Instrumental	Melancholic	Classical
+973	Fur Elise	Beethoven	Various	Instrumental	Peaceful	Classical
+974	Clair de Lune	Debussy	Various	Instrumental	Peaceful	Classical
+975	Canon in D	Pachelbel	Various	Instrumental	Peaceful	Classical
+976	Air on the G String	Bach	Various	Instrumental	Peaceful	Classical
+977	GymnopÃ©die No 1	Erik Satie	Various	Instrumental	Peaceful	Classical
+978	Prelude in C Major	Bach	Various	Instrumental	Peaceful	Classical
+979	Spring from Four Seasons	Vivaldi	Various	Instrumental	Energetic	Classical
+980	Winter from Four Seasons	Vivaldi	Various	Instrumental	Dramatic	Classical
+981	Arabesque No 1	Debussy	Various	Instrumental	Dreamy	Classical
+982	Nocturne Op 9 No 2	Chopin	Various	Instrumental	Romantic	Classical
+983	Waltz in A Minor	Chopin	Various	Instrumental	Melancholic	Classical
+984	Ode to Joy	Beethoven	Various	Instrumental	Joyful	Classical
+985	Symphony No 5	Beethoven	Various	Instrumental	Dramatic	Classical
+986	Symphony No 9	Beethoven	Various	Instrumental	Joyful	Classical
+987	The Blue Danube	Johann Strauss	Various	Instrumental	Happy	Classical
+988	Ride of the Valkyries	Wagner	Various	Instrumental	Aggressive	Classical
+989	Also Sprach Zarathustra	Richard Strauss	Various	Instrumental	Dramatic	Classical
+990	O Fortuna	Carl Orff	Various	Instrumental	Dramatic	Classical
+991	Nessun Dorma	Puccini	Various	Instrumental	Dramatic	Opera
+992	La Traviata	Verdi	Various	Instrumental	Emotional	Opera
+993	Ave Maria	Schubert	Various	Instrumental	Peaceful	Classical
+994	Lacrimosa	Mozart	Various	Instrumental	Sad	Classical
+995	Eine Kleine Nachtmusik	Mozart	Various	Instrumental	Happy	Classical
+996	Magic Flute Overture	Mozart	Various	Instrumental	Energetic	Classical
+997	Piano Concerto No 21	Mozart	Various	Instrumental	Romantic	Classical
+998	Serenade No 13	Mozart	Various	Instrumental	Peaceful	Classical
+999	Hungarian Dance No 5	Brahms	Various	Instrumental	Energetic	Classical
+1000	Violin Concerto	Brahms	Various	Instrumental	Emotional	Classical
+1001	Moonlight Sonata Slow	Beethoven	Various	Instrumental	Sad	Classical
+1002	Appassionata	Beethoven	Various	Instrumental	Dramatic	Classical
+1003	Piano Sonata No 14	Beethoven	Various	Instrumental	Melancholic	Classical
+1004	Hammerklavier	Beethoven	Various	Instrumental	Aggressive	Classical
+1005	Fantasy Impromptu	Chopin	Various	Instrumental	Energetic	Classical
+1006	Ballade No 1	Chopin	Various	Instrumental	Dramatic	Classical
+1007	Etude Op 10 No 4	Chopin	Various	Instrumental	Energetic	Classical
+1008	Minute Waltz	Chopin	Various	Instrumental	Playful	Classical
+1009	Butterfly Etude	Chopin	Various	Instrumental	Whimsical	Classical
+1010	Raindrop Prelude	Chopin	Various	Instrumental	Melancholic	Classical
+1011	Revolutionary Etude	Chopin	Various	Instrumental	Aggressive	Classical
+1012	Grand Polonaise	Chopin	Various	Instrumental	Proud	Classical
+1013	Scherzo No 2	Chopin	Various	Instrumental	Dramatic	Classical
+1014	Piano Sonata No 2	Chopin	Various	Instrumental	Sad	Classical
+1015	La Campanella	Liszt	Various	Instrumental	Energetic	Classical
+1016	Hungarian Rhapsody No 2	Liszt	Various	Instrumental	Dramatic	Classical
+1017	Liebestraum	Liszt	Various	Instrumental	Romantic	Classical
+1018	Transcendental Etude	Liszt	Various	Instrumental	Aggressive	Classical
+1019	Years of Pilgrimage	Liszt	Various	Instrumental	Reflective	Classical
+1020	Images Book 1	Debussy	Various	Instrumental	Dreamy	Classical
+1021	Reverie	Debussy	Various	Instrumental	Peaceful	Classical
+1022	La Mer	Debussy	Various	Instrumental	Energetic	Classical
+1023	The Sunken Cathedral	Debussy	Various	Instrumental	Mysterious	Classical
+1024	Girl with the Flaxen Hair	Debussy	Various	Instrumental	Peaceful	Classical
+1025	Jeux	Debussy	Various	Instrumental	Playful	Classical
+1026	Prelude to the Afternoon of a Faun	Debussy	Various	Instrumental	Dreamy	Classical
+1027	Snowflakes Are Dancing	Debussy	Various	Instrumental	Peaceful	Classical
+1028	Berceuse	Faure	Various	Instrumental	Peaceful	Classical
+1029	Pavane	Faure	Various	Instrumental	Melancholic	Classical
+1030	Sicilienne	Faure	Various	Instrumental	Peaceful	Classical
+1031	Cantique de Jean Racine	Faure	Various	Instrumental	Peaceful	Classical
+1032	Agnus Dei	Faure	Various	Instrumental	Sad	Classical
+1033	In Paradisum	Faure	Various	Instrumental	Peaceful	Classical
+1034	Pelleas and Melisande	Faure	Various	Instrumental	Melancholic	Classical
+1035	Elegy	Faure	Various	Instrumental	Sad	Classical
+1036	Dolly Suite	Faure	Various	Instrumental	Playful	Classical
+1037	Requiem in D Minor	Faure	Various	Instrumental	Sad	Classical
+1038	Showers of Blessing	Traditional Hymn	Various	English	Spiritual	Gospel
+1039	Amazing Grace	Traditional	Various	English	Spiritual	Gospel
+1040	How Great Thou Art	Traditional	Various	English	Spiritual	Gospel
+1041	Hallelujah	Traditional	Various	English	Inspirational	Gospel
+1042	This Little Light of Mine	Traditional	Various	English	Happy	Gospel
+1043	Oh Happy Day	Traditional	Various	English	Joyful	Gospel
+1044	Go Down Moses	Traditional	Various	English	Spiritual	Gospel
+1045	Nobody Knows the Trouble I've Seen	Traditional	Various	English	Sad	Gospel
+1046	Swing Low Sweet Chariot	Traditional	Various	English	Peaceful	Gospel
+1047	When the Saints Go Marching In	Traditional	Various	English	Joyful	Gospel
+1048	River of Dreams	Billy Joel	Billy Joel	English	Hopeful	Pop
+1049	Piano Man	Billy Joel	Billy Joel	English	Nostalgic	Pop
+1050	She's Always a Woman	Billy Joel	Billy Joel	English	Romantic	Pop
+1051	The Stranger	Billy Joel	Billy Joel	English	Mysterious	Pop
+1052	Its Still Rock and Roll to Me	Billy Joel	Billy Joel	English	Energetic	Rock
+1053	Pressure	Billy Joel	Billy Joel	English	Anxious	Rock
+1054	Allentown	Billy Joel	Billy Joel	English	Thoughtful	Rock
+1055	Scenes from an Italian Restaurant	Billy Joel	Billy Joel	English	Nostalgic	Rock
+1056	My Life	Billy Joel	Billy Joel	English	Confident	Rock
+1057	We Didn't Start the Fire	Billy Joel	Billy Joel	English	Energetic	Rock
+1058	Goodnight Saigon	Billy Joel	Billy Joel	English	Emotional	Rock
+1059	Leningrad	Billy Joel	Billy Joel	English	Reflective	Pop
+1060	And So It Goes	Billy Joel	Billy Joel	English	Sad	Ballad
+1061	Lullaby	Billy Joel	Billy Joel	English	Peaceful	Ballad
+1062	Summer Highland Falls	Billy Joel	Billy Joel	English	Melancholic	Rock
+1063	Miami 2017	Billy Joel	Billy Joel	English	Nostalgic	Rock
+1064	Say Goodbye to Hollywood	Billy Joel	Billy Joel	English	Hopeful	Rock
+1065	Los Angelenos	Billy Joel	Billy Joel	English	Reflective	Rock
+1066	Keeping the Faith	Billy Joel	Billy Joel	English	Energetic	Rock
+1067	Tell Her About It	Billy Joel	Billy Joel	English	Happy	Pop
+1068	Uptown Girl	Billy Joel	Billy Joel	English	Happy	Pop
+1069	A Matter of Trust	Billy Joel	Billy Joel	English	Hopeful	Rock
+1070	Baby Grand	Billy Joel	Billy Joel	English	Grateful	Pop
+1071	This is the Time	Billy Joel	Billy Joel	English	Nostalgic	Pop
+1072	Code of Silence	Billy Joel	Billy Joel	English	Sad	Rock
+1073	Getting Closer	Billy Joel	Billy Joel	English	Happy	Pop
+1074	Big Man on Mulberry Street	Billy Joel	Billy Joel	English	Energetic	Jazz-Pop
+1075	Modern Woman	Billy Joel	Billy Joel	English	Empowering	Pop
+1076	Deja Vu	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Reflective	Folk-Rock
+1077	Teach Your Children	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Inspirational	Folk-Rock
+1078	Our House	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Peaceful	Folk-Rock
+1079	Suite Judy Blue Eyes	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Romantic	Folk-Rock
+1080	Woodstock	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Hopeful	Folk-Rock
+1081	Southern Man	Crosby Stills Nash and Young	Neil Young	English	Angry	Folk-Rock
+1082	Ohio	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Angry	Folk-Rock
+1083	Find the Cost of Freedom	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Reflective	Folk-Rock
+1084	Love the One You're With	Crosby Stills Nash and Young	Stephen Stills	English	Happy	Folk-Rock
+1085	Guinnevere	Crosby Stills Nash and Young	David Crosby	English	Dreamy	Folk-Rock
+1086	Helplessly Hoping	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Melancholic	Folk-Rock
+1087	49 Bye Byes	Crosby Stills Nash and Young	Crosby Stills Nash and Young	English	Hopeful	Folk-Rock
+1088	Long Time Gone	Crosby Stills Nash and Young	David Crosby	English	Emotional	Folk-Rock
+1089	Almost Cut My Hair	Crosby Stills Nash and Young	David Crosby	English	Reflective	Folk-Rock

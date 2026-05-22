@@ -1,8 +1,56 @@
+# Virtual Environment
+venv/
 .venv/
-.env
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.DS_Store
+
+# Environment variables
 .env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Build folders
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python packaging
+*.egg-info/
+.eggs/
+
+# Model cache
+.cache/
+huggingface/
+
+# Torch cache
+torch_cache/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini

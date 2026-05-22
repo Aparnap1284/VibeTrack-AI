@@ -70,15 +70,17 @@ img {
     box-shadow: 0 2px 10px rgba(160, 70, 255, 0.1);
 }
 
-.music-card h4 {
-    font-size: 1.5rem;
-    color: #6b21a8;
-    margin-bottom: 0.4rem;
+.music-card h3 {
+    font-size: 1.6rem;
+    color: #4c1d95;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
 }
 
 .music-card p {
     font-size: 1rem;
-    color: #3f3f46;
+    color: #374151;
+    font-weight: 500;
 }
 
 .music-card a {
@@ -166,4 +168,33 @@ button[kind="primary"]:hover {
 .right-pane {
     flex: 1;
     min-width: 280px;
+}
+/* Better buttons */
+.button-row {
+    margin-top: 1rem;
+}
+
+.button-row a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #c084fc;
+    color: white !important;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.button-row a:hover {
+    background: #9333ea;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 0.95rem;
 }
